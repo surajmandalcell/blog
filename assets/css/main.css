@@ -1,0 +1,30 @@
+html,body{
+	font-family: "Helvetica", sans-serif !important;
+	border-radius: 0 !important;
+	overflow-y: hidden;
+	transition: 1s;
+}
+/*3b5898  */
+.navbar{
+	border-bottom: 0;
+}
+.navbar-toggle{
+	border: 0 !important;
+}
+.navbar-toggle:hover{
+	border: 0 !important;
+	border-radius: 0 !important;
+	transition: 800ms;
+}
+
+.segment_a{
+  margin-bottom: 10vh;
+  margin-top: 5vh;
+  padding: 14vh 15vw;
+}
+
+@media (max-width: 960px){
+	.segment_a{
+		padding-top: 12vh;
+	}
+}

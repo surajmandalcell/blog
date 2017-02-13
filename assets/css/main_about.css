@@ -1,0 +1,53 @@
+html, body {
+    background-color: whitesmoke;
+    color: white;
+    overflow: hidden;
+    text-align: center;
+}
+
+.seg_l {
+    background-color: darkslategrey;
+    position: absolute;
+    font-family: serif;
+    height: 100vh;
+    width: 50vw;
+    cursor: default;
+    transition: 250ms;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.seg_r {
+    background-color: grey;
+    position: absolute;
+    font-family: "monaco", "inconsolata", monospace;
+    height: 100vh;
+    width: 50vw;
+    right: 0;
+    cursor: default;
+    transition: 250ms;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.seg_l:hover{
+    transform: scale(1.4);
+}
+.seg_r:hover {
+    transform: scale(1.2);
+}
+
+@media (max-width: 700px) {
+    .seg_l {
+        height: 50vh;
+        width: 100vw;
+        top: 0;
+    }
+    .seg_r {
+        height: 50vh;
+        width: 100vw;
+        bottom: 0;
+    }
+}
