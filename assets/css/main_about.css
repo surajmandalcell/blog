@@ -6,7 +6,9 @@ html, body {
 }
 
 .seg_l {
-    background-color: darkslategrey;
+    background-color: #41BF3F;
+    background-image: url(../img/designer.jpg);
+    background-size: cover;
     position: absolute;
     font-family: serif;
     height: 100vh;
@@ -19,9 +21,11 @@ html, body {
 }
 
 .seg_r {
-    background-color: grey;
+    background-color: #212B2E;
+    background-image: url(../img/programmer.jpg);
+    background-size: cover;
     position: absolute;
-    font-family: "monaco", "inconsolata", monospace;
+    font-family: "inconsolata","monaco", "inconsolata", monospace;
     height: 100vh;
     width: 50vw;
     right: 0;

@@ -1,5 +1,5 @@
 html,body{
-	font-family: "Helvetica", sans-serif !important;
+	font-family: "inconsolata", "noto sans", sans-serif !important;
 	border-radius: 0 !important;
 	overflow-y: hidden;
 	transition: 1s;
