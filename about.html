@@ -9,21 +9,41 @@
     <meta name="description" content="My homepage">
     <meta name="author" content="SurajMandal">
     <link rel="icon" href="">
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="assets/css/main_about.css" rel="stylesheet">
-    <script src="assets/js/main.js"></script>
+    <link href="assets/css/animate.min.css" rel="stylesheet">
 	<title>Suraj Mandal | About</title>
 </head>
 <body>
-	<div class="seg_l">
-			<h1>DESIGNER</h1>
-	</div>
-	<div class="seg_r">
-    <div class="background_p"></div>
-			<h1>PROGRAMMER</h1>
-	</div>
+    <div>
+    	<div class="seg_l">
+    			<h1 id="deg" onclick="showDesigner()">DESIGNER</h1>
+    	</div>
+    	<div class="seg_r">
+        <div class="background_p"></div>
+    			<h1  id="pog" onclick="showProgrammer()">PROGRAMMER</h1>
+    	</div>
+    </div>
+    <div id="designer" class="designer">
+        <div class="close_l" onclick="closeDeg()">x</div>
+        <div class="content_l">
+            <h1>Designer</h1>
+            <p>I am a designer just for fun and use most of my time making templates of design inspirations that i get all over the internet.</p>
+        </div>
+    </div>
+    <div id="programmer" class="programmer slideInRight">
+        <div class="close_r" onclick="closePog()">x</div>
+        <div class="content_r">
+            <h1>Programmer</h1>
+            <p>I am a programmer just for fun and use most of my time i help open source coders/repos with their bugfix and else point out improvements. I am </p>
+        </div>
+    </div>
     <script src="assets/js/jquery.js"></script>
-    <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
+
+
+<!--
+
+-->
