@@ -1,0 +1,4601 @@
+html
+  margin: 0
+  padding: 0
+  border: 0
+  font-size: 100%
+  font-weight: normal
+
+body
+  margin: 0
+  padding: 0
+  border: 0
+  font-size: 100%
+  font-weight: normal
+  div
+    margin: 0
+    padding: 0
+    border: 0
+    font-size: 100%
+    font-weight: normal
+
+span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary
+  margin: 0
+  padding: 0
+  border: 0
+  font-size: 100%
+  font-weight: normal
+
+article, aside, figure, footer, header, nav, section, details, summary
+  display: block
+
+html
+  box-sizing: border-box
+
+*
+  box-sizing: inherit
+  &:before, &:after
+    box-sizing: inherit
+
+img, object, embed
+  max-width: 100%
+
+html
+  overflow-y: scroll
+
+ul
+  list-style: none
+
+blockquote, q
+  quotes: none
+
+blockquote
+  &:before, &:after
+    content: ''
+    content: none
+
+q
+  &:before, &:after
+    content: ''
+    content: none
+
+a
+  margin: 0
+  padding: 0
+  font-size: 100%
+  vertical-align: baseline
+  background: transparent
+
+del
+  text-decoration: line-through
+
+abbr[title], dfn[title]
+  border-bottom: 1px dotted #000
+  cursor: help
+
+table
+  border-collapse: collapse
+  border-spacing: 0
+
+th
+  font-weight: bold
+  vertical-align: bottom
+
+td
+  font-weight: normal
+  vertical-align: top
+
+hr
+  display: block
+  height: 1px
+  border: 0
+  border-top: 1px solid #ccc
+  margin: 1em 0
+  padding: 0
+
+input, select
+  vertical-align: middle
+
+pre
+  white-space: pre
+  white-space: pre-wrap
+  white-space: pre-line
+  word-wrap: break-word
+
+input
+  &[type="radio"]
+    vertical-align: text-bottom
+  &[type="checkbox"]
+    vertical-align: bottom
+
+select, input, textarea
+  font: 99% sans-serif
+
+table
+  font-size: inherit
+  font: 100%
+
+small
+  font-size: 85%
+
+strong
+  font-weight: bold
+
+td
+  vertical-align: top
+  img
+    vertical-align: top
+
+sub
+  font-size: 75%
+  line-height: 0
+  position: relative
+
+sup
+  font-size: 75%
+  line-height: 0
+  position: relative
+  top: -0.5em
+
+sub
+  bottom: -0.25em
+
+pre, code, kbd, samp
+  font-family: monospace, sans-serif
+
+label
+  cursor: pointer
+
+input
+  &[type=button], &[type=submit], &[type=file]
+    cursor: pointer
+
+button
+  cursor: pointer
+  margin: 0
+
+input, select, textarea
+  margin: 0
+
+button, input[type=button]
+  width: auto
+  overflow: visible
+
+@-webkit-keyframes spin-around
+  from
+    -webkit-transform: rotate(0deg)
+    transform: rotate(0deg)
+
+  to
+    -webkit-transform: rotate(359deg)
+    transform: rotate(359deg)
+
+
+@keyframes spin-around
+  from
+    -webkit-transform: rotate(0deg)
+    transform: rotate(0deg)
+
+  to
+    -webkit-transform: rotate(359deg)
+    transform: rotate(359deg)
+
+
+html
+  background-color: #f5f7fa
+  font-size: 14px
+  -moz-osx-font-smoothing: grayscale
+  -webkit-font-smoothing: antialiased
+  min-width: 300px
+  overflow-x: hidden
+  overflow-y: scroll
+  text-rendering: optimizeLegibility
+
+article, aside, figure, footer, header, hgroup, section
+  display: block
+
+body, button, input, select, textarea
+  font-family: "Open Sans", "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif
+
+code, pre
+  -moz-osx-font-smoothing: antialised
+  -webkit-font-smoothing: antialiased
+  font-family: monospace
+  line-height: 1.25
+
+body
+  color: #42464c
+  font-size: 1rem
+  font-weight: 400
+  line-height: 1.42857
+
+a
+  color: #2077b2
+  cursor: pointer
+  text-decoration: none
+  -webkit-transition: none 86ms ease-out
+  transition: none 86ms ease-out
+  &:hover
+    color: #222324
+
+code
+  background-color: #f5f7fa
+  color: #ed6c63
+  font-size: 12px
+  font-weight: normal
+  padding: 1px 2px 2px
+
+hr
+  border-top-color: #d3d6db
+  margin: 40px 0
+
+img
+  max-width: 100%
+
+input
+  &[type="checkbox"], &[type="radio"]
+    vertical-align: baseline
+
+small
+  font-size: 11px
+
+span
+  font-style: inherit
+  font-weight: inherit
+
+strong
+  color: #222324
+  font-weight: 700
+
+pre
+  background-color: #f5f7fa
+  color: #42464c
+  white-space: pre
+  word-wrap: normal
+  code
+    background-color: #f5f7fa
+    color: #42464c
+    display: block
+    overflow-x: auto
+    padding: 16px 20px
+
+table
+  width: 100%
+  td
+    text-align: left
+    vertical-align: top
+  th
+    text-align: left
+    vertical-align: top
+    color: #222324
+
+.block:not(:last-child), .box:not(:last-child), .content:not(:last-child), .notification:not(:last-child), .progress:not(:last-child), .title:not(:last-child), .subtitle:not(:last-child), .highlight:not(:last-child), .level:not(:last-child), .message:not(:last-child), .tabs:not(:last-child)
+  margin-bottom: 20px
+
+.container
+  position: relative
+
+@media screen and (min-width: 980px)
+  .container
+    margin: 0 auto
+    max-width: 960px
+    &.is-fluid
+      margin: 0 20px
+      max-width: none
+
+@media screen and (min-width: 1180px)
+  .container
+    max-width: 1200px
+
+.fa
+  font-size: 21px
+  text-align: center
+  vertical-align: top
+
+.is-block
+  display: block
+
+@media screen and (max-width: 768px)
+  .is-block-mobile
+    display: block !important
+
+@media screen and (min-width: 769px)
+  .is-block-tablet
+    display: block !important
+
+@media screen and (min-width: 769px) and (max-width: 979px)
+  .is-block-tablet-only
+    display: block !important
+
+@media screen and (max-width: 979px)
+  .is-block-touch
+    display: block !important
+
+@media screen and (min-width: 980px)
+  .is-block-desktop
+    display: block !important
+
+@media screen and (min-width: 980px) and (max-width: 1179px)
+  .is-block-desktop-only
+    display: block !important
+
+@media screen and (min-width: 1180px)
+  .is-block-widescreen
+    display: block !important
+
+.is-flex
+  display: -webkit-box
+  display: -ms-flexbox
+  display: flex
+
+@media screen and (max-width: 768px)
+  .is-flex-mobile
+    display: -webkit-box !important
+    display: -ms-flexbox !important
+    display: flex !important
+
+@media screen and (min-width: 769px)
+  .is-flex-tablet
+    display: -webkit-box !important
+    display: -ms-flexbox !important
+    display: flex !important
+
+@media screen and (min-width: 769px) and (max-width: 979px)
+  .is-flex-tablet-only
+    display: -webkit-box !important
+    display: -ms-flexbox !important
+    display: flex !important
+
+@media screen and (max-width: 979px)
+  .is-flex-touch
+    display: -webkit-box !important
+    display: -ms-flexbox !important
+    display: flex !important
+
+@media screen and (min-width: 980px)
+  .is-flex-desktop
+    display: -webkit-box !important
+    display: -ms-flexbox !important
+    display: flex !important
+
+@media screen and (min-width: 980px) and (max-width: 1179px)
+  .is-flex-desktop-only
+    display: -webkit-box !important
+    display: -ms-flexbox !important
+    display: flex !important
+
+@media screen and (min-width: 1180px)
+  .is-flex-widescreen
+    display: -webkit-box !important
+    display: -ms-flexbox !important
+    display: flex !important
+
+.is-inline
+  display: inline
+
+@media screen and (max-width: 768px)
+  .is-inline-mobile
+    display: inline !important
+
+@media screen and (min-width: 769px)
+  .is-inline-tablet
+    display: inline !important
+
+@media screen and (min-width: 769px) and (max-width: 979px)
+  .is-inline-tablet-only
+    display: inline !important
+
+@media screen and (max-width: 979px)
+  .is-inline-touch
+    display: inline !important
+
+@media screen and (min-width: 980px)
+  .is-inline-desktop
+    display: inline !important
+
+@media screen and (min-width: 980px) and (max-width: 1179px)
+  .is-inline-desktop-only
+    display: inline !important
+
+@media screen and (min-width: 1180px)
+  .is-inline-widescreen
+    display: inline !important
+
+.is-inline-block
+  display: inline-block
+
+@media screen and (max-width: 768px)
+  .is-inline-block-mobile
+    display: inline-block !important
+
+@media screen and (min-width: 769px)
+  .is-inline-block-tablet
+    display: inline-block !important
+
+@media screen and (min-width: 769px) and (max-width: 979px)
+  .is-inline-block-tablet-only
+    display: inline-block !important
+
+@media screen and (max-width: 979px)
+  .is-inline-block-touch
+    display: inline-block !important
+
+@media screen and (min-width: 980px)
+  .is-inline-block-desktop
+    display: inline-block !important
+
+@media screen and (min-width: 980px) and (max-width: 1179px)
+  .is-inline-block-desktop-only
+    display: inline-block !important
+
+@media screen and (min-width: 1180px)
+  .is-inline-block-widescreen
+    display: inline-block !important
+
+.is-inline-flex
+  display: -webkit-inline-box
+  display: -ms-inline-flexbox
+  display: inline-flex
+
+@media screen and (max-width: 768px)
+  .is-inline-flex-mobile
+    display: -webkit-inline-box !important
+    display: -ms-inline-flexbox !important
+    display: inline-flex !important
+
+@media screen and (min-width: 769px)
+  .is-inline-flex-tablet
+    display: -webkit-inline-box !important
+    display: -ms-inline-flexbox !important
+    display: inline-flex !important
+
+@media screen and (min-width: 769px) and (max-width: 979px)
+  .is-inline-flex-tablet-only
+    display: -webkit-inline-box !important
+    display: -ms-inline-flexbox !important
+    display: inline-flex !important
+
+@media screen and (max-width: 979px)
+  .is-inline-flex-touch
+    display: -webkit-inline-box !important
+    display: -ms-inline-flexbox !important
+    display: inline-flex !important
+
+@media screen and (min-width: 980px)
+  .is-inline-flex-desktop
+    display: -webkit-inline-box !important
+    display: -ms-inline-flexbox !important
+    display: inline-flex !important
+
+@media screen and (min-width: 980px) and (max-width: 1179px)
+  .is-inline-flex-desktop-only
+    display: -webkit-inline-box !important
+    display: -ms-inline-flexbox !important
+    display: inline-flex !important
+
+@media screen and (min-width: 1180px)
+  .is-inline-flex-widescreen
+    display: -webkit-inline-box !important
+    display: -ms-inline-flexbox !important
+    display: inline-flex !important
+
+.is-clearfix:after
+  clear: both
+  content: " "
+  display: table
+
+.is-pulled-left
+  float: left
+
+.is-pulled-right
+  float: right
+
+.is-clipped
+  overflow: hidden !important
+
+.is-overlay
+  bottom: 0
+  left: 0
+  position: absolute
+  right: 0
+  top: 0
+
+.has-text-centered
+  text-align: center
+
+.has-text-left
+  text-align: left
+
+.has-text-right
+  text-align: right
+
+.is-hidden
+  display: none !important
+
+@media screen and (max-width: 768px)
+  .is-hidden-mobile
+    display: none !important
+
+@media screen and (min-width: 769px)
+  .is-hidden-tablet
+    display: none !important
+
+@media screen and (min-width: 769px) and (max-width: 979px)
+  .is-hidden-tablet-only
+    display: none !important
+
+@media screen and (max-width: 979px)
+  .is-hidden-touch
+    display: none !important
+
+@media screen and (min-width: 980px)
+  .is-hidden-desktop
+    display: none !important
+
+@media screen and (min-width: 980px) and (max-width: 1179px)
+  .is-hidden-desktop-only
+    display: none !important
+
+@media screen and (min-width: 1180px)
+  .is-hidden-widescreen
+    display: none !important
+
+.is-disabled
+  pointer-events: none
+
+.is-marginless
+  margin: 0 !important
+
+.box
+  background-color: #fff
+  border-radius: 5px
+  box-shadow: 0 2px 3px rgba(17, 17, 17, 0.1), 0 0 0 1px rgba(17, 17, 17, 0.1)
+  display: block
+  padding: 20px
+
+a.box
+  &:hover, &:focus
+    box-shadow: 0 2px 3px rgba(17, 17, 17, 0.1), 0 0 0 1px #2077b2
+  &:active
+    box-shadow: inset 0 1px 2px rgba(17, 17, 17, 0.2), 0 0 0 1px #2077b2
+
+.button
+  -moz-appearance: none
+  -webkit-appearance: none
+  -webkit-box-align: center
+  -ms-flex-align: center
+  align-items: center
+  background-color: #fff
+  border: 1px solid #d3d6db
+  border-radius: 3px
+  color: #222324
+  display: -webkit-inline-box
+  display: -ms-inline-flexbox
+  display: inline-flex
+  font-size: 14px
+  height: 32px
+  -webkit-box-pack: start
+  -ms-flex-pack: start
+  justify-content: flex-start
+  line-height: 24px
+  padding-left: 8px
+  padding-right: 8px
+  position: relative
+  vertical-align: top
+  -webkit-box-pack: center
+  -ms-flex-pack: center
+  justify-content: center
+  padding-left: 10px
+  padding-right: 10px
+  text-align: center
+  white-space: nowrap
+  &:hover
+    border-color: #aeb1b5
+  &:active, &:focus, &.is-active
+    border-color: #2077b2
+    outline: none
+  &[disabled], &.is-disabled
+    background-color: #f5f7fa
+    border-color: #d3d6db
+    cursor: not-allowed
+    pointer-events: none
+  &[disabled]::-moz-placeholder, &.is-disabled::-moz-placeholder, &[disabled]::-webkit-input-placeholder, &.is-disabled::-webkit-input-placeholder, &[disabled]:-moz-placeholder, &.is-disabled:-moz-placeholder, &[disabled]:-ms-input-placeholder, &.is-disabled:-ms-input-placeholder
+    color: rgba(34, 35, 36, 0.3)
+  strong
+    color: inherit
+  small
+    display: block
+    font-size: 11px
+    line-height: 1
+    margin-top: 5px
+  .icon:first-child, .tag:first-child
+    margin-left: -2px
+    margin-right: 4px
+  .icon:last-child, .tag:last-child
+    margin-left: 4px
+    margin-right: -2px
+  &:hover, &:focus, &.is-active
+    color: #222324
+  &:active
+    box-shadow: inset 0 1px 2px rgba(17, 17, 17, 0.2)
+  &.is-white
+    background-color: #fff
+    border-color: transparent
+    color: #111
+    &:hover, &:focus, &.is-active
+      background-color: #e6e6e6
+      border-color: transparent
+      color: #111
+    &:active
+      border-color: transparent
+    &.is-inverted
+      background-color: #111
+      color: #fff
+      &:hover
+        background-color: #040404
+    &.is-loading:after
+      border-color: transparent transparent #111 #111 !important
+    &.is-outlined
+      background-color: transparent
+      border-color: #fff
+      color: #fff
+      &:hover, &:focus
+        background-color: #fff
+        border-color: #fff
+        color: #111
+  &.is-black
+    background-color: #111
+    border-color: transparent
+    color: #fff
+    &:hover, &:focus, &.is-active
+      background-color: #000
+      border-color: transparent
+      color: #fff
+    &:active
+      border-color: transparent
+    &.is-inverted
+      background-color: #fff
+      color: #111
+      &:hover
+        background-color: #f2f2f2
+    &.is-loading:after
+      border-color: transparent transparent #fff #fff !important
+    &.is-outlined
+      background-color: transparent
+      border-color: #111
+      color: #111
+      &:hover, &:focus
+        background-color: #111
+        border-color: #111
+        color: #fff
+  &.is-light
+    background-color: #f5f7fa
+    border-color: transparent
+    color: #42464c
+    &:hover, &:focus, &.is-active
+      background-color: #d3dce9
+      border-color: transparent
+      color: #42464c
+    &:active
+      border-color: transparent
+    &.is-inverted
+      background-color: #42464c
+      color: #f5f7fa
+      &:hover
+        background-color: #36393e
+    &.is-loading:after
+      border-color: transparent transparent #42464c #42464c !important
+    &.is-outlined
+      background-color: transparent
+      border-color: #f5f7fa
+      color: #f5f7fa
+      &:hover, &:focus
+        background-color: #f5f7fa
+        border-color: #f5f7fa
+        color: #42464c
+  &.is-dark
+    background-color: #42464c
+    border-color: transparent
+    color: #f5f7fa
+    &:hover, &:focus, &.is-active
+      background-color: #2a2d31
+      border-color: transparent
+      color: #f5f7fa
+    &:active
+      border-color: transparent
+    &.is-inverted
+      background-color: #f5f7fa
+      color: #42464c
+      &:hover
+        background-color: #e4e9f2
+    &.is-loading:after
+      border-color: transparent transparent #f5f7fa #f5f7fa !important
+    &.is-outlined
+      background-color: transparent
+      border-color: #42464c
+      color: #42464c
+      &:hover, &:focus
+        background-color: #42464c
+        border-color: #42464c
+        color: #f5f7fa
+  &.is-primary
+    background-color: #2077b2
+    border-color: transparent
+    color: #fff
+    &:hover, &:focus, &.is-active
+      background-color: #185a87
+      border-color: transparent
+      color: #fff
+    &:active
+      border-color: transparent
+    &.is-inverted
+      background-color: #fff
+      color: #2077b2
+      &:hover
+        background-color: #f2f2f2
+    &.is-loading:after
+      border-color: transparent transparent #fff #fff !important
+    &.is-outlined
+      background-color: transparent
+      border-color: #2077b2
+      color: #2077b2
+      &:hover, &:focus
+        background-color: #2077b2
+        border-color: #2077b2
+        color: #fff
+  &.is-info
+    background-color: #2077b2
+    border-color: transparent
+    color: #fff
+    &:hover, &:focus, &.is-active
+      background-color: #185a87
+      border-color: transparent
+      color: #fff
+    &:active
+      border-color: transparent
+    &.is-inverted
+      background-color: #fff
+      color: #2077b2
+      &:hover
+        background-color: #f2f2f2
+    &.is-loading:after
+      border-color: transparent transparent #fff #fff !important
+    &.is-outlined
+      background-color: transparent
+      border-color: #2077b2
+      color: #2077b2
+      &:hover, &:focus
+        background-color: #2077b2
+        border-color: #2077b2
+        color: #fff
+  &.is-success
+    background-color: #97cd76
+    border-color: transparent
+    color: #fff
+    &:hover, &:focus, &.is-active
+      background-color: #7bbf51
+      border-color: transparent
+      color: #fff
+    &:active
+      border-color: transparent
+    &.is-inverted
+      background-color: #fff
+      color: #97cd76
+      &:hover
+        background-color: #f2f2f2
+    &.is-loading:after
+      border-color: transparent transparent #fff #fff !important
+    &.is-outlined
+      background-color: transparent
+      border-color: #97cd76
+      color: #97cd76
+      &:hover, &:focus
+        background-color: #97cd76
+        border-color: #97cd76
+        color: #fff
+  &.is-warning
+    background-color: #fce473
+    border-color: transparent
+    color: rgba(17, 17, 17, 0.5)
+    &:hover, &:focus, &.is-active
+      background-color: #fbda41
+      border-color: transparent
+      color: rgba(17, 17, 17, 0.5)
+    &:active
+      border-color: transparent
+    &.is-inverted
+      background-color: rgba(17, 17, 17, 0.5)
+      color: #fce473
+      &:hover
+        background-color: rgba(4, 4, 4, 0.5)
+    &.is-loading:after
+      border-color: transparent transparent rgba(17, 17, 17, 0.5) rgba(17, 17, 17, 0.5) !important
+    &.is-outlined
+      background-color: transparent
+      border-color: #fce473
+      color: #fce473
+      &:hover, &:focus
+        background-color: #fce473
+        border-color: #fce473
+        color: rgba(17, 17, 17, 0.5)
+  &.is-danger
+    background-color: #ed6c63
+    border-color: transparent
+    color: #fff
+    &:hover, &:focus, &.is-active
+      background-color: #e84135
+      border-color: transparent
+      color: #fff
+    &:active
+      border-color: transparent
+    &.is-inverted
+      background-color: #fff
+      color: #ed6c63
+      &:hover
+        background-color: #f2f2f2
+    &.is-loading:after
+      border-color: transparent transparent #fff #fff !important
+    &.is-outlined
+      background-color: transparent
+      border-color: #ed6c63
+      color: #ed6c63
+      &:hover, &:focus
+        background-color: #ed6c63
+        border-color: #ed6c63
+        color: #fff
+  &.is-link
+    background-color: transparent
+    border-color: transparent
+    color: #42464c
+    text-decoration: blink
+    &:hover, &:focus
+      background-color: #d3d6db
+      color: #222324
+  &.is-small
+    border-radius: 2px
+    font-size: 11px
+    height: 24px
+    line-height: 16px
+    padding-left: 6px
+    padding-right: 6px
+  &.is-medium
+    font-size: 18px
+    height: 40px
+    padding-left: 14px
+    padding-right: 14px
+  &.is-large
+    font-size: 22px
+    height: 48px
+    padding-left: 20px
+    padding-right: 20px
+  &[disabled], &.is-disabled
+    opacity: 0.5
+  &.is-fullwidth
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+    width: 100%
+  &.is-loading
+    color: transparent !important
+    pointer-events: none
+    &:after
+      left: 50%
+      margin-left: -8px
+      margin-top: -8px
+      position: absolute
+      top: 50%
+      position: absolute !important
+
+.content
+  a:not(.button)
+    border-bottom: 1px solid #d3d6db
+    &:visited
+      color: #847bb9
+    &:hover
+      border-bottom-color: #2077b2
+  li + li
+    margin-top: 0.25em
+  blockquote:not(:last-child), p:not(:last-child), ol:not(:last-child), ul:not(:last-child)
+    margin-bottom: 1em
+  h1, h2, h3, h4, h5, h6
+    color: #222324
+    font-weight: 300
+    line-height: 1.125
+    margin-bottom: 20px
+  h1:not(:first-child), h2:not(:first-child), h3:not(:first-child)
+    margin-top: 40px
+  blockquote
+    background-color: #f5f7fa
+    border-left: 5px solid #d3d6db
+    padding: 1.5em
+  h1
+    font-size: 2em
+  h2
+    font-size: 1.75em
+  h3
+    font-size: 1.5em
+  h4
+    font-size: 1.25em
+  h5
+    font-size: 1.125em
+  h6
+    font-size: 1em
+  ol
+    list-style: decimal outside
+    margin-left: 2em
+    margin-right: 2em
+    margin-top: 1em
+  ul
+    list-style: disc outside
+    margin-left: 2em
+    margin-right: 2em
+    margin-top: 1em
+    ul
+      list-style-type: circle
+      margin-top: 0.5em
+      ul
+        list-style-type: square
+  &.is-medium
+    font-size: 18px
+    code
+      font-size: 14px
+  &.is-large
+    font-size: 24px
+    code
+      font-size: 18px
+
+.input, .textarea
+  -moz-appearance: none
+  -webkit-appearance: none
+  -webkit-box-align: center
+  -ms-flex-align: center
+  align-items: center
+  background-color: #fff
+  border: 1px solid #d3d6db
+  border-radius: 3px
+  color: #222324
+  display: -webkit-inline-box
+  display: -ms-inline-flexbox
+  display: inline-flex
+  font-size: 14px
+  height: 32px
+  -webkit-box-pack: start
+  -ms-flex-pack: start
+  justify-content: flex-start
+  line-height: 24px
+  padding-left: 8px
+  padding-right: 8px
+  position: relative
+  vertical-align: top
+  box-shadow: inset 0 1px 2px rgba(17, 17, 17, 0.1)
+  max-width: 100%
+  width: 100%
+
+.input:hover, .textarea:hover
+  border-color: #aeb1b5
+
+.input:active, .textarea:active, .input:focus, .textarea:focus, .input.is-active, .is-active.textarea
+  border-color: #2077b2
+  outline: none
+
+.input[disabled], [disabled].textarea, .input.is-disabled, .is-disabled.textarea
+  background-color: #f5f7fa
+  border-color: #d3d6db
+  cursor: not-allowed
+  pointer-events: none
+
+.input[disabled]::-moz-placeholder, [disabled].textarea::-moz-placeholder, .input.is-disabled::-moz-placeholder, .is-disabled.textarea::-moz-placeholder, .input[disabled]::-webkit-input-placeholder, [disabled].textarea::-webkit-input-placeholder, .input.is-disabled::-webkit-input-placeholder, .is-disabled.textarea::-webkit-input-placeholder, .input[disabled]:-moz-placeholder, [disabled].textarea:-moz-placeholder, .input.is-disabled:-moz-placeholder, .is-disabled.textarea:-moz-placeholder, .input[disabled]:-ms-input-placeholder, [disabled].textarea:-ms-input-placeholder, .input.is-disabled:-ms-input-placeholder, .is-disabled.textarea:-ms-input-placeholder
+  color: rgba(34, 35, 36, 0.3)
+
+.input.is-white, .is-white.textarea
+  border-color: #fff
+
+.input.is-black, .is-black.textarea
+  border-color: #111
+
+.input.is-light, .is-light.textarea
+  border-color: #f5f7fa
+
+.input.is-dark, .is-dark.textarea
+  border-color: #42464c
+
+.input.is-primary, .is-primary.textarea, .input.is-info, .is-info.textarea
+  border-color: #2077b2
+
+.input.is-success, .is-success.textarea
+  border-color: #97cd76
+
+.input.is-warning, .is-warning.textarea
+  border-color: #fce473
+
+.input.is-danger, .is-danger.textarea
+  border-color: #ed6c63
+
+.input[type="search"], [type="search"].textarea
+  border-radius: 290486px
+
+.input.is-small, .is-small.textarea
+  border-radius: 2px
+  font-size: 11px
+  height: 24px
+  line-height: 16px
+  padding-left: 6px
+  padding-right: 6px
+
+.input.is-medium, .is-medium.textarea
+  font-size: 18px
+  height: 40px
+  line-height: 32px
+  padding-left: 10px
+  padding-right: 10px
+
+.input.is-large, .is-large.textarea
+  font-size: 24px
+  height: 48px
+  line-height: 40px
+  padding-left: 12px
+  padding-right: 12px
+
+.input.is-fullwidth, .is-fullwidth.textarea
+  display: block
+  width: 100%
+
+.input.is-inline, .is-inline.textarea
+  display: inline
+  width: auto
+
+.textarea
+  display: block
+  line-height: 1.2
+  max-height: 600px
+  max-width: 100%
+  min-height: 120px
+  min-width: 100%
+  padding: 10px
+  resize: vertical
+
+.checkbox, .radio
+  cursor: pointer
+  display: inline-block
+  line-height: 16px
+  position: relative
+  vertical-align: top
+
+.checkbox input, .radio input
+  cursor: pointer
+
+.checkbox:hover, .radio:hover
+  color: #222324
+
+.is-disabled
+  &.checkbox, &.radio
+    color: #aeb1b5
+    pointer-events: none
+  &.checkbox input, &.radio input
+    pointer-events: none
+
+.radio + .radio
+  margin-left: 10px
+
+.select
+  display: inline-block
+  height: 32px
+  position: relative
+  vertical-align: top
+  select
+    -moz-appearance: none
+    -webkit-appearance: none
+    -webkit-box-align: center
+    -ms-flex-align: center
+    align-items: center
+    background-color: #fff
+    border: 1px solid #d3d6db
+    border-radius: 3px
+    color: #222324
+    display: -webkit-inline-box
+    display: -ms-inline-flexbox
+    display: inline-flex
+    font-size: 14px
+    height: 32px
+    -webkit-box-pack: start
+    -ms-flex-pack: start
+    justify-content: flex-start
+    line-height: 24px
+    padding-left: 8px
+    padding-right: 8px
+    position: relative
+    vertical-align: top
+    cursor: pointer
+    display: block
+    outline: none
+    padding-right: 36px
+    &:hover
+      border-color: #aeb1b5
+    &:active, &:focus, &.is-active
+      border-color: #2077b2
+      outline: none
+    &[disabled], &.is-disabled
+      background-color: #f5f7fa
+      border-color: #d3d6db
+      cursor: not-allowed
+      pointer-events: none
+    &[disabled]::-moz-placeholder, &.is-disabled::-moz-placeholder, &[disabled]::-webkit-input-placeholder, &.is-disabled::-webkit-input-placeholder, &[disabled]:-moz-placeholder, &.is-disabled:-moz-placeholder, &[disabled]:-ms-input-placeholder, &.is-disabled:-ms-input-placeholder
+      color: rgba(34, 35, 36, 0.3)
+    &.is-white
+      border-color: #fff
+    &.is-black
+      border-color: #111
+    &.is-light
+      border-color: #f5f7fa
+    &.is-dark
+      border-color: #42464c
+    &.is-primary, &.is-info
+      border-color: #2077b2
+    &.is-success
+      border-color: #97cd76
+    &.is-warning
+      border-color: #fce473
+    &.is-danger
+      border-color: #ed6c63
+    &:hover
+      border-color: #aeb1b5
+    &::ms-expand
+      display: none
+  &.is-fullwidth
+    width: 100%
+    select
+      width: 100%
+  &:after
+    border: 1px solid #2077b2
+    border-right: 0
+    border-top: 0
+    content: " "
+    display: block
+    height: 7px
+    pointer-events: none
+    position: absolute
+    -webkit-transform: rotate(-45deg)
+    transform: rotate(-45deg)
+    width: 7px
+    margin-top: -6px
+    right: 16px
+    top: 50%
+  &:hover:after
+    border-color: #222324
+  &.is-small
+    height: 24px
+    select
+      border-radius: 2px
+      font-size: 11px
+      height: 24px
+      line-height: 16px
+      padding-left: 6px
+      padding-right: 6px
+      padding-right: 28px
+  &.is-medium
+    height: 40px
+    select
+      font-size: 18px
+      height: 40px
+      line-height: 32px
+      padding-left: 10px
+      padding-right: 10px
+      padding-right: 44px
+  &.is-large
+    height: 48px
+    select
+      font-size: 24px
+      height: 48px
+      line-height: 40px
+      padding-left: 12px
+      padding-right: 12px
+      padding-right: 52px
+
+.label
+  color: #222324
+  display: block
+  font-weight: bold
+  &:not(:last-child)
+    margin-bottom: 5px
+
+.help
+  display: block
+  font-size: 11px
+  margin-top: 5px
+  &.is-white
+    color: #fff
+  &.is-black
+    color: #111
+  &.is-light
+    color: #f5f7fa
+  &.is-dark
+    color: #42464c
+  &.is-primary, &.is-info
+    color: #2077b2
+  &.is-success
+    color: #97cd76
+  &.is-warning
+    color: #fce473
+  &.is-danger
+    color: #ed6c63
+
+@media screen and (max-width: 768px)
+  .control-label
+    margin-bottom: 5px
+
+@media screen and (min-width: 769px)
+  .control-label
+    -webkit-box-flex: 1
+    -ms-flex-positive: 1
+    flex-grow: 1
+    margin-right: 20px
+    padding-top: 7px
+    text-align: right
+
+.control
+  position: relative
+  text-align: left
+  &:not(:last-child)
+    margin-bottom: 10px
+  &.has-addons
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+    -webkit-box-pack: start
+    -ms-flex-pack: start
+    justify-content: flex-start
+    .button, .input, .textarea, .select
+      border-radius: 0
+      margin-right: -1px
+      width: auto
+    .button:hover, .input:hover, .textarea:hover, .select:hover
+      z-index: 2
+    .button
+      &:active, &:focus
+        z-index: 3
+    .input:active, .textarea:active, .input:focus, .textarea:focus
+      z-index: 3
+    .select
+      &:active, &:focus
+        z-index: 3
+    .button:first-child, .input:first-child, .textarea:first-child, .select:first-child, .button:first-child select, .input:first-child select, .textarea:first-child select, .select:first-child select
+      border-radius: 3px 0 0 3px
+    .button:last-child, .input:last-child, .textarea:last-child, .select:last-child, .button:last-child select, .input:last-child select, .textarea:last-child select, .select:last-child select
+      border-radius: 0 3px 3px 0
+    .button.is-expanded, .input.is-expanded, .is-expanded.textarea, .select.is-expanded
+      -webkit-box-flex: 1
+      -ms-flex-positive: 1
+      flex-grow: 1
+    &.has-addons-centered
+      -webkit-box-pack: center
+      -ms-flex-pack: center
+      justify-content: center
+    &.has-addons-right
+      -webkit-box-pack: end
+      -ms-flex-pack: end
+      justify-content: flex-end
+    &.has-addons-fullwidth
+      .button, .input, .textarea, .select
+        -webkit-box-flex: 1
+        -ms-flex-positive: 1
+        flex-grow: 1
+  &.has-icon
+    > .fa
+      display: inline-block
+      font-size: 14px
+      height: 24px
+      line-height: 24px
+      text-align: center
+      vertical-align: top
+      width: 24px
+      color: #aeb1b5
+      pointer-events: none
+      position: absolute
+      top: 4px
+      z-index: 4
+    .input:focus + .fa, .textarea:focus + .fa
+      color: #222324
+    .input.is-small + .fa, .is-small.textarea + .fa
+      font-size: 10.5px
+      top: 0
+    .input.is-medium + .fa, .is-medium.textarea + .fa
+      font-size: 21px
+      top: 8px
+    .input.is-large + .fa, .is-large.textarea + .fa
+      font-size: 21px
+      top: 12px
+    &:not(.has-icon-right)
+      > .fa
+        left: 4px
+      .input, .textarea
+        padding-left: 32px
+      .input.is-small, .is-small.textarea
+        padding-left: 24px
+      .input.is-small + .fa, .is-small.textarea + .fa
+        left: 0
+      .input.is-medium, .is-medium.textarea
+        padding-left: 40px
+      .input.is-medium + .fa, .is-medium.textarea + .fa
+        left: 8px
+      .input.is-large, .is-large.textarea
+        padding-left: 48px
+      .input.is-large + .fa, .is-large.textarea + .fa
+        left: 12px
+    &.has-icon-right
+      > .fa
+        right: 4px
+      .input, .textarea
+        padding-right: 32px
+      .input.is-small, .is-small.textarea
+        padding-right: 24px
+      .input.is-small + .fa, .is-small.textarea + .fa
+        right: 0
+      .input.is-medium, .is-medium.textarea
+        padding-right: 40px
+      .input.is-medium + .fa, .is-medium.textarea + .fa
+        right: 8px
+      .input.is-large, .is-large.textarea
+        padding-right: 48px
+      .input.is-large + .fa, .is-large.textarea + .fa
+        right: 12px
+  &.is-grouped
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+    -webkit-box-pack: start
+    -ms-flex-pack: start
+    justify-content: flex-start
+    > .control
+      &:not(:last-child)
+        margin-bottom: 0
+        margin-right: 10px
+      &.is-expanded
+        -webkit-box-flex: 1
+        -ms-flex-positive: 1
+        flex-grow: 1
+    &.is-grouped-centered
+      -webkit-box-pack: center
+      -ms-flex-pack: center
+      justify-content: center
+    &.is-grouped-right
+      -webkit-box-pack: end
+      -ms-flex-pack: end
+      justify-content: flex-end
+  &.is-loading:after
+    position: absolute !important
+    right: 8px
+    top: 8px
+
+@media screen and (min-width: 769px)
+  .control.is-horizontal
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+    > .control
+      display: -webkit-box
+      display: -ms-flexbox
+      display: flex
+      -webkit-box-flex: 5
+      -ms-flex-positive: 5
+      flex-grow: 5
+
+.image
+  display: block
+  position: relative
+  img
+    display: block
+    height: auto
+    width: 100%
+  &.is-square img, &.is-1by1 img, &.is-4by3 img, &.is-3by2 img, &.is-16by9 img, &.is-2by1 img
+    bottom: 0
+    left: 0
+    position: absolute
+    right: 0
+    top: 0
+    height: 100%
+    width: 100%
+  &.is-square, &.is-1by1
+    padding-top: 100%
+  &.is-4by3
+    padding-top: 75%
+  &.is-3by2
+    padding-top: 66.6666%
+  &.is-16by9
+    padding-top: 56.25%
+  &.is-2by1
+    padding-top: 50%
+  &.is-16x16
+    height: 16px
+    width: 16px
+  &.is-24x24
+    height: 24px
+    width: 24px
+  &.is-32x32
+    height: 32px
+    width: 32px
+  &.is-48x48
+    height: 48px
+    width: 48px
+  &.is-64x64
+    height: 64px
+    width: 64px
+  &.is-96x96
+    height: 96px
+    width: 96px
+  &.is-128x128
+    height: 128px
+    width: 128px
+
+.notification
+  background-color: #f5f7fa
+  border-radius: 3px
+  padding: 16px 20px
+  position: relative
+  &:after
+    clear: both
+    content: " "
+    display: table
+  .delete, .modal-close
+    border-radius: 0 3px
+    float: right
+    margin: -16px -20px 0 20px
+  .subtitle, .title
+    color: inherit
+  &.is-white
+    background-color: #fff
+    color: #111
+  &.is-black
+    background-color: #111
+    color: #fff
+  &.is-light
+    background-color: #f5f7fa
+    color: #42464c
+  &.is-dark
+    background-color: #42464c
+    color: #f5f7fa
+  &.is-primary, &.is-info
+    background-color: #2077b2
+    color: #fff
+  &.is-success
+    background-color: #97cd76
+    color: #fff
+  &.is-warning
+    background-color: #fce473
+    color: rgba(17, 17, 17, 0.5)
+  &.is-danger
+    background-color: #ed6c63
+    color: #fff
+
+.progress
+  -moz-appearance: none
+  -webkit-appearance: none
+  border: none
+  border-radius: 290486px
+  display: block
+  height: 12px
+  overflow: hidden
+  padding: 0
+  width: 100%
+  &::-webkit-progress-bar
+    background-color: #d3d6db
+  &::-webkit-progress-value, &::-moz-progress-bar
+    background-color: #42464c
+  &.is-white
+    &::-webkit-progress-value, &::-moz-progress-bar
+      background-color: #fff
+  &.is-black
+    &::-webkit-progress-value, &::-moz-progress-bar
+      background-color: #111
+  &.is-light
+    &::-webkit-progress-value, &::-moz-progress-bar
+      background-color: #f5f7fa
+  &.is-dark
+    &::-webkit-progress-value, &::-moz-progress-bar
+      background-color: #42464c
+  &.is-primary
+    &::-webkit-progress-value, &::-moz-progress-bar
+      background-color: #2077b2
+  &.is-info
+    &::-webkit-progress-value, &::-moz-progress-bar
+      background-color: #2077b2
+  &.is-success
+    &::-webkit-progress-value, &::-moz-progress-bar
+      background-color: #97cd76
+  &.is-warning
+    &::-webkit-progress-value, &::-moz-progress-bar
+      background-color: #fce473
+  &.is-danger
+    &::-webkit-progress-value, &::-moz-progress-bar
+      background-color: #ed6c63
+  &.is-small
+    height: 8px
+  &.is-medium
+    height: 16px
+  &.is-large
+    height: 20px
+
+.table
+  background-color: #fff
+  color: #222324
+  margin-bottom: 20px
+  width: 100%
+  td, th
+    border: 1px solid #d3d6db
+    border-width: 0 0 1px
+    padding: 8px 10px
+    vertical-align: top
+  td.is-icon, th.is-icon
+    padding: 5px
+    text-align: center
+    white-space: nowrap
+    width: 1%
+  td.is-icon .fa, th.is-icon .fa
+    display: inline-block
+    font-size: 21px
+    height: 24px
+    line-height: 24px
+    text-align: center
+    vertical-align: top
+    width: 24px
+  td.is-icon.is-link, th.is-icon.is-link
+    padding: 0
+  td.is-icon.is-link > a, th.is-icon.is-link > a
+    padding: 5px
+  td.is-link, th.is-link
+    padding: 0
+  td.is-link > a, th.is-link > a
+    display: block
+    padding: 8px 10px
+  td.is-link > a:hover, th.is-link > a:hover
+    background-color: #2077b2
+    color: #fff
+  td.is-narrow
+    white-space: nowrap
+    width: 1%
+  th
+    &.is-narrow
+      white-space: nowrap
+      width: 1%
+    color: #222324
+    text-align: left
+  tr:hover
+    background-color: #f5f7fa
+    color: #222324
+  thead
+    td, th
+      border-width: 0 0 2px
+      color: #aeb1b5
+  tbody tr:last-child
+    td, th
+      border-bottom-width: 0
+  tfoot
+    td, th
+      border-width: 2px 0 0
+      color: #aeb1b5
+  &.is-bordered
+    td, th
+      border-width: 1px
+    tr:last-child
+      td, th
+        border-bottom-width: 1px
+  &.is-narrow
+    td, th
+      padding: 5px 10px
+    td.is-icon, th.is-icon
+      padding: 2px
+    td.is-icon.is-link, th.is-icon.is-link
+      padding: 0
+    td.is-icon.is-link > a, th.is-icon.is-link > a
+      padding: 2px
+    td.is-link, th.is-link
+      padding: 0
+    td.is-link > a, th.is-link > a
+      padding: 5px 10px
+  &.is-striped tbody tr
+    &:hover
+      background-color: #eef2f7
+    &:nth-child(2n)
+      background-color: #f5f7fa
+      &:hover
+        background-color: #eef2f7
+
+.title, .subtitle
+  font-weight: 300
+  word-break: break-word
+
+.title
+  em, span
+    font-weight: 300
+
+.subtitle
+  em, span
+    font-weight: 300
+
+.title a:hover, .subtitle a:hover
+  border-bottom: 1px solid
+
+.title strong, .subtitle strong
+  font-weight: 500
+
+.title .tag, .subtitle .tag
+  vertical-align: bottom
+
+.title
+  color: #222324
+  font-size: 28px
+  line-height: 1
+  code
+    display: inline-block
+    font-size: 28px
+  strong
+    color: inherit
+  +
+    .highlight, .subtitle
+      margin-top: -10px
+  &.is-1
+    font-size: 48px
+    code
+      font-size: 40px
+  &.is-2
+    font-size: 40px
+    code
+      font-size: 28px
+  &.is-3
+    font-size: 28px
+    code
+      font-size: 24px
+  &.is-4
+    font-size: 4vmin
+    code
+      font-size: 18px
+  &.is-5
+    font-size: 18px
+    code
+      font-size: 14px
+  &.is-6
+    font-size: 14px
+    code
+      font-size: 14px
+  &.is-normal
+    font-weight: 400
+    strong
+      font-weight: 700
+
+@media screen and (min-width: 769px)
+  .title + .subtitle
+    margin-top: -15px
+
+.subtitle
+  color: #42464c
+  font-size: 18px
+  line-height: 1.125
+  code
+    border-radius: 3px
+    display: inline-block
+    font-size: 14px
+    padding: 2px 3px
+    vertical-align: top
+  strong
+    color: #222324
+  + .title
+    margin-top: -20px
+  &.is-1
+    font-size: 48px
+    code
+      font-size: 40px
+  &.is-2
+    font-size: 40px
+    code
+      font-size: 28px
+  &.is-3
+    font-size: 28px
+    code
+      font-size: 24px
+  &.is-4
+    font-size: 24px
+    code
+      font-size: 18px
+  &.is-5
+    font-size: 13px
+    code
+      font-size: 14px
+  &.is-6
+    font-size: 14px
+    code
+      font-size: 14px
+  &.is-normal
+    font-weight: 400
+    strong
+      font-weight: 700
+
+.delete, .modal-close
+  -moz-appearance: none
+  -webkit-appearance: none
+  background-color: rgba(17, 17, 17, 0.2)
+  border: none
+  border-radius: 290486px
+  cursor: pointer
+  display: inline-block
+  height: 24px
+  position: relative
+  vertical-align: top
+  width: 24px
+
+.delete:before, .modal-close:before, .delete:after, .modal-close:after
+  background-color: #fff
+  content: ""
+  display: block
+  height: 2px
+  left: 50%
+  margin-left: -25%
+  margin-top: -1px
+  position: absolute
+  top: 50%
+  width: 50%
+
+.delete:before, .modal-close:before
+  -webkit-transform: rotate(45deg)
+  transform: rotate(45deg)
+
+.delete:after, .modal-close:after
+  -webkit-transform: rotate(-45deg)
+  transform: rotate(-45deg)
+
+.delete:hover, .modal-close:hover
+  background-color: rgba(17, 17, 17, 0.5)
+
+.delete.is-small
+  height: 16px
+  width: 16px
+
+.tag:not(.is-large)
+  .delete, .modal-close
+    height: 16px
+    width: 16px
+
+.is-small.modal-close
+  height: 16px
+  width: 16px
+
+.delete.is-medium, .is-medium.modal-close
+  height: 32px
+  width: 32px
+
+.delete.is-large, .is-large.modal-close
+  height: 40px
+  width: 40px
+
+.icon
+  display: inline-block
+  font-size: 21px
+  height: 24px
+  line-height: 24px
+  text-align: center
+  vertical-align: top
+  width: 24px
+  .fa
+    font-size: inherit
+    line-height: inherit
+  &.is-small
+    display: inline-block
+    font-size: 14px
+    height: 16px
+    line-height: 16px
+    text-align: center
+    vertical-align: top
+    width: 16px
+  &.is-medium
+    display: inline-block
+    font-size: 28px
+    height: 32px
+    line-height: 32px
+    text-align: center
+    vertical-align: top
+    width: 32px
+  &.is-large
+    display: inline-block
+    font-size: 42px
+    height: 48px
+    line-height: 48px
+    text-align: center
+    vertical-align: top
+    width: 48px
+
+.hamburger, .nav-toggle
+  cursor: pointer
+  display: block
+  height: 50px
+  position: relative
+  width: 50px
+
+.hamburger span, .nav-toggle span
+  background-color: #42464c
+  display: block
+  height: 1px
+  left: 50%
+  margin-left: -7px
+  position: absolute
+  top: 50%
+  -webkit-transition: none 86ms ease-out
+  transition: none 86ms ease-out
+  -webkit-transition-property: background, left, opacity, -webkit-transform
+  transition-property: background, left, opacity, -webkit-transform
+  transition-property: background, left, opacity, transform
+  transition-property: background, left, opacity, transform, -webkit-transform
+  width: 15px
+
+.hamburger span:nth-child(1), .nav-toggle span:nth-child(1)
+  margin-top: -6px
+
+.hamburger span:nth-child(2), .nav-toggle span:nth-child(2)
+  margin-top: -1px
+
+.hamburger span:nth-child(3), .nav-toggle span:nth-child(3)
+  margin-top: 4px
+
+.hamburger:hover, .nav-toggle:hover
+  background-color: #f5f7fa
+
+.hamburger.is-active span, .is-active.nav-toggle span
+  background-color: #2077b2
+
+.hamburger.is-active span:nth-child(1), .is-active.nav-toggle span:nth-child(1)
+  margin-left: -5px
+  -webkit-transform: rotate(45deg)
+  transform: rotate(45deg)
+  -webkit-transform-origin: left top
+  transform-origin: left top
+
+.hamburger.is-active span:nth-child(2), .is-active.nav-toggle span:nth-child(2)
+  opacity: 0
+
+.hamburger.is-active span:nth-child(3), .is-active.nav-toggle span:nth-child(3)
+  margin-left: -5px
+  -webkit-transform: rotate(-45deg)
+  transform: rotate(-45deg)
+  -webkit-transform-origin: left bottom
+  transform-origin: left bottom
+
+.heading
+  display: block
+  font-size: 11px
+  letter-spacing: 1px
+  margin-bottom: 5px
+  text-transform: uppercase
+
+.highlight
+  font-size: 12px
+  font-weight: normal
+  max-width: 100%
+  overflow: hidden
+  padding: 0
+  pre
+    overflow: auto
+    max-width: 100%
+
+.loader, .button.is-loading:after, .control.is-loading:after
+  -webkit-animation: spin-around 500ms infinite linear
+  animation: spin-around 500ms infinite linear
+  border: 2px solid #d3d6db
+  border-radius: 290486px
+  border-right-color: transparent
+  border-top-color: transparent
+  content: ""
+  display: block
+  height: 16px
+  position: relative
+  width: 16px
+
+.number
+  background-color: #f5f7fa
+  border-radius: 290486px
+  display: inline-block
+  font-size: 18px
+  vertical-align: top
+
+.tag
+  -webkit-box-align: center
+  -ms-flex-align: center
+  align-items: center
+  background-color: #f5f7fa
+  border-radius: 290486px
+  color: #42464c
+  display: -webkit-inline-box
+  display: -ms-inline-flexbox
+  display: inline-flex
+  font-size: 12px
+  height: 24px
+  -webkit-box-pack: center
+  -ms-flex-pack: center
+  justify-content: center
+  line-height: 16px
+  padding-left: 10px
+  padding-right: 10px
+  vertical-align: top
+  white-space: nowrap
+  .delete, .modal-close
+    margin-left: 4px
+    margin-right: -6px
+  &.is-white
+    background-color: #fff
+    color: #111
+  &.is-black
+    background-color: #111
+    color: #fff
+  &.is-light
+    background-color: #f5f7fa
+    color: #42464c
+  &.is-dark
+    background-color: #42464c
+    color: #f5f7fa
+  &.is-primary, &.is-info
+    background-color: #2077b2
+    color: #fff
+  &.is-success
+    background-color: #97cd76
+    color: #fff
+  &.is-warning
+    background-color: #fce473
+    color: rgba(17, 17, 17, 0.5)
+  &.is-danger
+    background-color: #ed6c63
+    color: #fff
+  &.is-small
+    font-size: 11px
+    height: 20px
+    padding-left: 8px
+    padding-right: 8px
+  &.is-medium
+    font-size: 14px
+    height: 32px
+    padding-left: 14px
+    padding-right: 14px
+  &.is-large
+    font-size: 18px
+    height: 40px
+    line-height: 24px
+    padding-left: 18px
+    padding-right: 18px
+    .delete, .modal-close
+      margin-left: 4px
+      margin-right: -8px
+
+.unselectable, .is-unselectable, .button, .delete, .modal-close, .tabs
+  -webkit-touch-callout: none
+  -webkit-user-select: none
+  -moz-user-select: none
+  -ms-user-select: none
+  user-select: none
+
+.card-header
+  -webkit-box-align: stretch
+  -ms-flex-align: stretch
+  align-items: stretch
+  box-shadow: 0 1px 2px rgba(17, 17, 17, 0.1)
+  display: -webkit-box
+  display: -ms-flexbox
+  display: flex
+  min-height: 40px
+
+.card-header-title
+  -webkit-box-align: start
+  -ms-flex-align: start
+  align-items: flex-start
+  color: #222324
+  display: -webkit-box
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-flex: 1
+  -ms-flex-positive: 1
+  flex-grow: 1
+  font-weight: bold
+  padding: 10px
+
+.card-header-icon
+  -webkit-box-align: center
+  -ms-flex-align: center
+  align-items: center
+  cursor: pointer
+  display: -webkit-box
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-pack: center
+  -ms-flex-pack: center
+  justify-content: center
+  width: 40px
+
+.card-image
+  display: block
+  position: relative
+
+.card-content
+  padding: 20px
+  .title + .subtitle
+    margin-top: -20px
+
+.card-footer
+  border-top: 1px solid #d3d6db
+  -webkit-box-align: stretch
+  -ms-flex-align: stretch
+  align-items: stretch
+  display: -webkit-box
+  display: -ms-flexbox
+  display: flex
+
+.card-footer-item
+  -webkit-box-align: center
+  -ms-flex-align: center
+  align-items: center
+  display: -webkit-box
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-flex: 1
+  -ms-flex-positive: 1
+  flex-grow: 1
+  -webkit-box-pack: center
+  -ms-flex-pack: center
+  justify-content: center
+  padding: 10px
+  &:not(:last-child)
+    border-right: 1px solid #d3d6db
+
+.card
+  background-color: #fff
+  box-shadow: 0 2px 3px rgba(17, 17, 17, 0.1), 0 0 0 1px rgba(17, 17, 17, 0.1)
+  color: #42464c
+  max-width: 100%
+  position: relative
+  width: 300px
+  .media:not(:last-child)
+    margin-bottom: 10px
+  &.is-fullwidth
+    width: 100%
+  &.is-rounded
+    border-radius: 5px
+
+.column
+  -ms-flex-preferred-size: 0
+  flex-basis: 0
+  -webkit-box-flex: 1
+  -ms-flex-positive: 1
+  flex-grow: 1
+  -ms-flex-negative: 1
+  flex-shrink: 1
+  padding: 10px
+
+.columns
+  &.is-mobile > .column
+    &.is-narrow
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+    &.is-full
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 100%
+    &.is-three-quarters
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 75%
+    &.is-two-thirds
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 66.6666%
+    &.is-half
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 50%
+    &.is-one-third
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 33.3333%
+    &.is-one-quarter
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 25%
+    &.is-offset-three-quarters
+      margin-left: 75%
+    &.is-offset-two-thirds
+      margin-left: 66.6666%
+    &.is-offset-half
+      margin-left: 50%
+    &.is-offset-one-third
+      margin-left: 33.3333%
+    &.is-offset-one-quarter
+      margin-left: 25%
+    &.is-1
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 8.33333%
+    &.is-offset-1
+      margin-left: 8.33333%
+    &.is-2
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 16.66667%
+    &.is-offset-2
+      margin-left: 16.66667%
+    &.is-3
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 25%
+    &.is-offset-3
+      margin-left: 25%
+    &.is-4
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 33.33333%
+    &.is-offset-4
+      margin-left: 33.33333%
+    &.is-5
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 41.66667%
+    &.is-offset-5
+      margin-left: 41.66667%
+    &.is-6
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 50%
+    &.is-offset-6
+      margin-left: 50%
+    &.is-7
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 58.33333%
+    &.is-offset-7
+      margin-left: 58.33333%
+    &.is-8
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 66.66667%
+    &.is-offset-8
+      margin-left: 66.66667%
+    &.is-9
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 75%
+    &.is-offset-9
+      margin-left: 75%
+    &.is-10
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 83.33333%
+    &.is-offset-10
+      margin-left: 83.33333%
+    &.is-11
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 91.66667%
+    &.is-offset-11
+      margin-left: 91.66667%
+    &.is-12
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 100%
+    &.is-offset-12
+      margin-left: 100%
+  margin-left: -10px
+  margin-right: -10px
+  margin-top: -10px
+  &:last-child
+    margin-bottom: -10px
+  &:not(:last-child)
+    margin-bottom: 10px
+  &.is-centered
+    -webkit-box-pack: center
+    -ms-flex-pack: center
+    justify-content: center
+  &.is-gapless
+    margin-left: 0
+    margin-right: 0
+    margin-top: 0
+    &:last-child
+      margin-bottom: 0
+    &:not(:last-child)
+      margin-bottom: 20px
+    > .column
+      margin: 0
+      padding: 0
+  &.is-mobile
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+  &.is-multiline
+    -ms-flex-wrap: wrap
+    flex-wrap: wrap
+  &.is-vcentered
+    -webkit-box-align: center
+    -ms-flex-align: center
+    align-items: center
+
+@media screen and (max-width: 768px)
+  .column
+    &.is-narrow-mobile
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+    &.is-full-mobile
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 100%
+    &.is-three-quarters-mobile
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 75%
+    &.is-two-thirds-mobile
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 66.6666%
+    &.is-half-mobile
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 50%
+    &.is-one-third-mobile
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 33.3333%
+    &.is-one-quarter-mobile
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 25%
+    &.is-offset-three-quarters-mobile
+      margin-left: 75%
+    &.is-offset-two-thirds-mobile
+      margin-left: 66.6666%
+    &.is-offset-half-mobile
+      margin-left: 50%
+    &.is-offset-one-third-mobile
+      margin-left: 33.3333%
+    &.is-offset-one-quarter-mobile
+      margin-left: 25%
+    &.is-1-mobile
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 8.33333%
+    &.is-offset-1-mobile
+      margin-left: 8.33333%
+    &.is-2-mobile
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 16.66667%
+    &.is-offset-2-mobile
+      margin-left: 16.66667%
+    &.is-3-mobile
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 25%
+    &.is-offset-3-mobile
+      margin-left: 25%
+    &.is-4-mobile
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 33.33333%
+    &.is-offset-4-mobile
+      margin-left: 33.33333%
+    &.is-5-mobile
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 41.66667%
+    &.is-offset-5-mobile
+      margin-left: 41.66667%
+    &.is-6-mobile
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 50%
+    &.is-offset-6-mobile
+      margin-left: 50%
+    &.is-7-mobile
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 58.33333%
+    &.is-offset-7-mobile
+      margin-left: 58.33333%
+    &.is-8-mobile
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 66.66667%
+    &.is-offset-8-mobile
+      margin-left: 66.66667%
+    &.is-9-mobile
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 75%
+    &.is-offset-9-mobile
+      margin-left: 75%
+    &.is-10-mobile
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 83.33333%
+    &.is-offset-10-mobile
+      margin-left: 83.33333%
+    &.is-11-mobile
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 91.66667%
+    &.is-offset-11-mobile
+      margin-left: 91.66667%
+    &.is-12-mobile
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 100%
+    &.is-offset-12-mobile
+      margin-left: 100%
+
+@media screen and (min-width: 769px)
+  .column
+    &.is-narrow, &.is-narrow-tablet
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+    &.is-full, &.is-full-tablet
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 100%
+    &.is-three-quarters, &.is-three-quarters-tablet
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 75%
+    &.is-two-thirds, &.is-two-thirds-tablet
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 66.6666%
+    &.is-half, &.is-half-tablet
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 50%
+    &.is-one-third, &.is-one-third-tablet
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 33.3333%
+    &.is-one-quarter, &.is-one-quarter-tablet
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 25%
+    &.is-offset-three-quarters, &.is-offset-three-quarters-tablet
+      margin-left: 75%
+    &.is-offset-two-thirds, &.is-offset-two-thirds-tablet
+      margin-left: 66.6666%
+    &.is-offset-half, &.is-offset-half-tablet
+      margin-left: 50%
+    &.is-offset-one-third, &.is-offset-one-third-tablet
+      margin-left: 33.3333%
+    &.is-offset-one-quarter, &.is-offset-one-quarter-tablet
+      margin-left: 25%
+    &.is-1, &.is-1-tablet
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 8.33333%
+    &.is-offset-1, &.is-offset-1-tablet
+      margin-left: 8.33333%
+    &.is-2, &.is-2-tablet
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 16.66667%
+    &.is-offset-2, &.is-offset-2-tablet
+      margin-left: 16.66667%
+    &.is-3, &.is-3-tablet
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 25%
+    &.is-offset-3, &.is-offset-3-tablet
+      margin-left: 25%
+    &.is-4, &.is-4-tablet
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 33.33333%
+    &.is-offset-4, &.is-offset-4-tablet
+      margin-left: 33.33333%
+    &.is-5, &.is-5-tablet
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 41.66667%
+    &.is-offset-5, &.is-offset-5-tablet
+      margin-left: 41.66667%
+    &.is-6, &.is-6-tablet
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 50%
+    &.is-offset-6, &.is-offset-6-tablet
+      margin-left: 50%
+    &.is-7, &.is-7-tablet
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 58.33333%
+    &.is-offset-7, &.is-offset-7-tablet
+      margin-left: 58.33333%
+    &.is-8, &.is-8-tablet
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 66.66667%
+    &.is-offset-8, &.is-offset-8-tablet
+      margin-left: 66.66667%
+    &.is-9, &.is-9-tablet
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 75%
+    &.is-offset-9, &.is-offset-9-tablet
+      margin-left: 75%
+    &.is-10, &.is-10-tablet
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 83.33333%
+    &.is-offset-10, &.is-offset-10-tablet
+      margin-left: 83.33333%
+    &.is-11, &.is-11-tablet
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 91.66667%
+    &.is-offset-11, &.is-offset-11-tablet
+      margin-left: 91.66667%
+    &.is-12, &.is-12-tablet
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 100%
+    &.is-offset-12, &.is-offset-12-tablet
+      margin-left: 100%
+
+@media screen and (min-width: 980px)
+  .column
+    &.is-narrow-desktop
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+    &.is-full-desktop
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 100%
+    &.is-three-quarters-desktop
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 75%
+    &.is-two-thirds-desktop
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 66.6666%
+    &.is-half-desktop
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 50%
+    &.is-one-third-desktop
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 33.3333%
+    &.is-one-quarter-desktop
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 25%
+    &.is-offset-three-quarters-desktop
+      margin-left: 75%
+    &.is-offset-two-thirds-desktop
+      margin-left: 66.6666%
+    &.is-offset-half-desktop
+      margin-left: 50%
+    &.is-offset-one-third-desktop
+      margin-left: 33.3333%
+    &.is-offset-one-quarter-desktop
+      margin-left: 25%
+    &.is-1-desktop
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 8.33333%
+    &.is-offset-1-desktop
+      margin-left: 8.33333%
+    &.is-2-desktop
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 16.66667%
+    &.is-offset-2-desktop
+      margin-left: 16.66667%
+    &.is-3-desktop
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 25%
+    &.is-offset-3-desktop
+      margin-left: 25%
+    &.is-4-desktop
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 33.33333%
+    &.is-offset-4-desktop
+      margin-left: 33.33333%
+    &.is-5-desktop
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 41.66667%
+    &.is-offset-5-desktop
+      margin-left: 41.66667%
+    &.is-6-desktop
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 50%
+    &.is-offset-6-desktop
+      margin-left: 50%
+    &.is-7-desktop
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 58.33333%
+    &.is-offset-7-desktop
+      margin-left: 58.33333%
+    &.is-8-desktop
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 66.66667%
+    &.is-offset-8-desktop
+      margin-left: 66.66667%
+    &.is-9-desktop
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 75%
+    &.is-offset-9-desktop
+      margin-left: 75%
+    &.is-10-desktop
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 83.33333%
+    &.is-offset-10-desktop
+      margin-left: 83.33333%
+    &.is-11-desktop
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 91.66667%
+    &.is-offset-11-desktop
+      margin-left: 91.66667%
+    &.is-12-desktop
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 100%
+    &.is-offset-12-desktop
+      margin-left: 100%
+
+@media screen and (min-width: 1180px)
+  .column
+    &.is-narrow-widescreen
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+    &.is-full-widescreen
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 100%
+    &.is-three-quarters-widescreen
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 75%
+    &.is-two-thirds-widescreen
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 66.6666%
+    &.is-half-widescreen
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 50%
+    &.is-one-third-widescreen
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 33.3333%
+    &.is-one-quarter-widescreen
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 25%
+    &.is-offset-three-quarters-widescreen
+      margin-left: 75%
+    &.is-offset-two-thirds-widescreen
+      margin-left: 66.6666%
+    &.is-offset-half-widescreen
+      margin-left: 50%
+    &.is-offset-one-third-widescreen
+      margin-left: 33.3333%
+    &.is-offset-one-quarter-widescreen
+      margin-left: 25%
+    &.is-1-widescreen
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 8.33333%
+    &.is-offset-1-widescreen
+      margin-left: 8.33333%
+    &.is-2-widescreen
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 16.66667%
+    &.is-offset-2-widescreen
+      margin-left: 16.66667%
+    &.is-3-widescreen
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 25%
+    &.is-offset-3-widescreen
+      margin-left: 25%
+    &.is-4-widescreen
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 33.33333%
+    &.is-offset-4-widescreen
+      margin-left: 33.33333%
+    &.is-5-widescreen
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 41.66667%
+    &.is-offset-5-widescreen
+      margin-left: 41.66667%
+    &.is-6-widescreen
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 50%
+    &.is-offset-6-widescreen
+      margin-left: 50%
+    &.is-7-widescreen
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 58.33333%
+    &.is-offset-7-widescreen
+      margin-left: 58.33333%
+    &.is-8-widescreen
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 66.66667%
+    &.is-offset-8-widescreen
+      margin-left: 66.66667%
+    &.is-9-widescreen
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 75%
+    &.is-offset-9-widescreen
+      margin-left: 75%
+    &.is-10-widescreen
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 83.33333%
+    &.is-offset-10-widescreen
+      margin-left: 83.33333%
+    &.is-11-widescreen
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 91.66667%
+    &.is-offset-11-widescreen
+      margin-left: 91.66667%
+    &.is-12-widescreen
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 100%
+    &.is-offset-12-widescreen
+      margin-left: 100%
+
+@media screen and (min-width: 769px)
+  .columns.is-grid
+    -ms-flex-wrap: wrap
+    flex-wrap: wrap
+    > .column
+      max-width: 33.3333%
+      padding: 10px
+      width: 33.3333%
+      + .column
+        margin-left: 0
+
+@media screen and (min-width: 769px)
+  .columns:not(.is-desktop)
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+
+@media screen and (min-width: 980px)
+  .columns.is-desktop
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+
+.tile
+  -webkit-box-align: stretch
+  -ms-flex-align: stretch
+  align-items: stretch
+  -ms-flex-preferred-size: auto
+  flex-basis: auto
+  -webkit-box-flex: 1
+  -ms-flex-positive: 1
+  flex-grow: 1
+  -ms-flex-negative: 1
+  flex-shrink: 1
+  min-height: -webkit-min-content
+  min-height: -moz-min-content
+  min-height: min-content
+  &.is-ancestor
+    margin-left: -10px
+    margin-right: -10px
+    margin-top: -10px
+    &:last-child
+      margin-bottom: -10px
+    &:not(:last-child)
+      margin-bottom: 10px
+  &.is-child
+    margin: 0 !important
+  &.is-parent
+    padding: 10px
+  &.is-vertical
+    -webkit-box-orient: vertical
+    -webkit-box-direction: normal
+    -ms-flex-direction: column
+    flex-direction: column
+    > .tile.is-child:not(:last-child)
+      margin-bottom: 20px !important
+
+@media screen and (min-width: 769px)
+  .tile
+    &:not(.is-child)
+      display: -webkit-box
+      display: -ms-flexbox
+      display: flex
+    &.is-1
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 8.33333%
+    &.is-2
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 16.66667%
+    &.is-3
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 25%
+    &.is-4
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 33.33333%
+    &.is-5
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 41.66667%
+    &.is-6
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 50%
+    &.is-7
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 58.33333%
+    &.is-8
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 66.66667%
+    &.is-9
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 75%
+    &.is-10
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 83.33333%
+    &.is-11
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 91.66667%
+    &.is-12
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      width: 100%
+
+.highlight
+  background-color: #fdf6e3
+  color: #586e75
+  .c
+    color: #93a1a1
+  .err, .g
+    color: #586e75
+  .k
+    color: #859900
+  .l, .n
+    color: #586e75
+  .o
+    color: #859900
+  .x
+    color: #cb4b16
+  .p
+    color: #586e75
+  .cm
+    color: #93a1a1
+  .cp
+    color: #859900
+  .c1
+    color: #93a1a1
+  .cs
+    color: #859900
+  .gd
+    color: #2aa198
+  .ge
+    color: #586e75
+    font-style: italic
+  .gr
+    color: #dc322f
+  .gh
+    color: #cb4b16
+  .gi
+    color: #859900
+  .go, .gp
+    color: #586e75
+  .gs
+    color: #586e75
+    font-weight: bold
+  .gu
+    color: #cb4b16
+  .gt
+    color: #586e75
+  .kc
+    color: #cb4b16
+  .kd
+    color: #268bd2
+  .kn, .kp
+    color: #859900
+  .kr
+    color: #268bd2
+  .kt
+    color: #dc322f
+  .ld
+    color: #586e75
+  .m, .s
+    color: #2aa198
+  .na
+    color: #B58900
+  .nb
+    color: #586e75
+  .nc
+    color: #268bd2
+  .no
+    color: #cb4b16
+  .nd
+    color: #268bd2
+  .ni, .ne
+    color: #cb4b16
+  .nf
+    color: #268bd2
+  .nl, .nn, .nx, .py
+    color: #586e75
+  .nt, .nv
+    color: #268bd2
+  .ow
+    color: #859900
+  .w
+    color: #586e75
+  .mf, .mh, .mi, .mo
+    color: #2aa198
+  .sb
+    color: #93a1a1
+  .sc
+    color: #2aa198
+  .sd
+    color: #586e75
+  .s2
+    color: #2aa198
+  .se
+    color: #cb4b16
+  .sh
+    color: #586e75
+  .si, .sx
+    color: #2aa198
+  .sr
+    color: #dc322f
+  .s1, .ss
+    color: #2aa198
+  .bp, .vc, .vg, .vi
+    color: #268bd2
+  .il
+    color: #2aa198
+
+.level-item
+  .title, .subtitle
+    margin-bottom: 0
+
+@media screen and (max-width: 768px)
+  .level-item:not(:last-child)
+    margin-bottom: 10px
+
+.level-left .level-item:not(:last-child), .level-right .level-item:not(:last-child)
+  margin-right: 10px
+
+.level-left .level-item.is-flexible, .level-right .level-item.is-flexible
+  -webkit-box-flex: 1
+  -ms-flex-positive: 1
+  flex-grow: 1
+
+@media screen and (max-width: 768px)
+  .level-left + .level-right
+    margin-top: 20px
+
+@media screen and (min-width: 769px)
+  .level-left
+    -webkit-box-align: center
+    -ms-flex-align: center
+    align-items: center
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+
+@media screen and (min-width: 769px)
+  .level-right
+    -webkit-box-align: center
+    -ms-flex-align: center
+    align-items: center
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+    -webkit-box-pack: end
+    -ms-flex-pack: end
+    justify-content: flex-end
+
+.level
+  -webkit-box-align: center
+  -ms-flex-align: center
+  align-items: center
+  -webkit-box-pack: justify
+  -ms-flex-pack: justify
+  justify-content: space-between
+  code
+    border-radius: 3px
+  img
+    display: inline-block
+    vertical-align: top
+  &.is-mobile
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+    > .level-item
+      &:not(:last-child)
+        margin-bottom: 0
+      &:not(.is-narrow)
+        -webkit-box-flex: 1
+        -ms-flex-positive: 1
+        flex-grow: 1
+
+@media screen and (min-width: 769px)
+  .level
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+    > .level-item:not(.is-narrow)
+      -webkit-box-flex: 1
+      -ms-flex-positive: 1
+      flex-grow: 1
+
+.media-number
+  background-color: #f5f7fa
+  border-radius: 290486px
+  display: inline-block
+  font-size: 18px
+  height: 32px
+  line-height: 24px
+  min-width: 32px
+  padding: 4px 8px
+  text-align: center
+  vertical-align: top
+
+@media screen and (max-width: 768px)
+  .media-number
+    margin-bottom: 10px
+
+@media screen and (min-width: 769px)
+  .media-number
+    margin-right: 10px
+
+.media-left
+  margin-right: 10px
+
+.media-right
+  margin-left: 10px
+
+.media-content
+  -webkit-box-flex: 1
+  -ms-flex-positive: 1
+  flex-grow: 1
+  text-align: left
+
+.media
+  -webkit-box-align: start
+  -ms-flex-align: start
+  align-items: flex-start
+  display: -webkit-box
+  display: -ms-flexbox
+  display: flex
+  text-align: left
+  .content:not(:last-child)
+    margin-bottom: 10px
+  .media
+    border-top: 1px solid rgba(211, 214, 219, 0.5)
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+    padding-top: 10px
+    .content:not(:last-child), .control:not(:last-child)
+      margin-bottom: 5px
+    .media
+      padding-top: 5px
+      + .media
+        margin-top: 5px
+  + .media
+    border-top: 1px solid rgba(211, 214, 219, 0.5)
+    margin-top: 10px
+    padding-top: 10px
+  &.is-large + .media
+    margin-top: 20px
+    padding-top: 20px
+
+@media screen and (min-width: 769px)
+  .media.is-large .media-number
+    margin-right: 20px
+
+.menu-nav a
+  display: block
+  padding: 5px 10px
+
+.menu-list
+  a
+    border-radius: 2px
+    color: #42464c
+    display: block
+    padding: 5px 10px
+    &:hover
+      background-color: #f5f7fa
+      color: #2077b2
+    &.is-active
+      background-color: #2077b2
+      color: #fff
+  li ul
+    border-left: 1px solid #d3d6db
+    margin: 10px
+    padding-left: 10px
+
+.menu-label
+  color: #aeb1b5
+  font-size: 11px
+  letter-spacing: 1px
+  margin-bottom: 5px
+  text-transform: uppercase
+  &:not(:first-child)
+    margin-top: 20px
+
+.message-body
+  border: 1px solid #d3d6db
+  border-radius: 3px
+  padding: 12px 15px
+  strong
+    color: inherit
+
+.message-header
+  background-color: #42464c
+  border-radius: 3px 3px 0 0
+  color: #fff
+  padding: 7px 10px
+  strong
+    color: inherit
+  + .message-body
+    border-radius: 0 0 3px 3px
+    border-top: none
+
+.message
+  background-color: #f5f7fa
+  border-radius: 3px
+  &.is-white
+    background-color: #fff
+    .message-header
+      background-color: #fff
+      color: #111
+    .message-body
+      border-color: #fff
+      color: #666
+  &.is-black
+    background-color: #f5f5f5
+    .message-header
+      background-color: #111
+      color: #fff
+    .message-body
+      border-color: #111
+      color: gray
+  &.is-light
+    background-color: #f5f7fa
+    .message-header
+      background-color: #f5f7fa
+      color: #42464c
+    .message-body
+      border-color: #f5f7fa
+      color: #666
+  &.is-dark
+    background-color: #f4f5f6
+    .message-header
+      background-color: #42464c
+      color: #f5f7fa
+    .message-body
+      border-color: #42464c
+      color: gray
+  &.is-primary, &.is-info
+    background-color: #eef6fc
+    .message-header
+      background-color: #2077b2
+      color: #fff
+    .message-body
+      border-color: #2077b2
+      color: gray
+  &.is-success
+    background-color: #f4faf0
+    .message-header
+      background-color: #97cd76
+      color: #fff
+    .message-body
+      border-color: #97cd76
+      color: gray
+  &.is-warning
+    background-color: #fffbeb
+    .message-header
+      background-color: #fce473
+      color: rgba(17, 17, 17, 0.5)
+    .message-body
+      border-color: #fce473
+      color: #666
+  &.is-danger
+    background-color: #fdeeed
+    .message-header
+      background-color: #ed6c63
+      color: #fff
+    .message-body
+      border-color: #ed6c63
+      color: gray
+
+.modal-background
+  bottom: 0
+  left: 0
+  position: absolute
+  right: 0
+  top: 0
+  background-color: rgba(17, 17, 17, 0.86)
+
+.modal-content, .modal-card
+  margin: 0 20px
+  max-height: calc(100vh - 160px)
+  overflow: auto
+  position: relative
+  width: 100%
+
+@media screen and (min-width: 769px)
+  .modal-content, .modal-card
+    margin: 0 auto
+    max-height: calc(100vh - 40px)
+    width: 640px
+
+.modal-close
+  background: none
+  height: 40px
+  position: fixed
+  right: 20px
+  top: 20px
+  width: 40px
+
+.modal-card
+  background-color: #fff
+  border-radius: 5px
+  display: -webkit-box
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-orient: vertical
+  -webkit-box-direction: normal
+  -ms-flex-direction: column
+  flex-direction: column
+  max-height: calc(100vh - 40px)
+  overflow: hidden
+
+.modal-card-head, .modal-card-foot
+  -webkit-box-align: center
+  -ms-flex-align: center
+  align-items: center
+  background-color: #f5f7fa
+  display: -webkit-box
+  display: -ms-flexbox
+  display: flex
+  -ms-flex-negative: 0
+  flex-shrink: 0
+  -webkit-box-pack: start
+  -ms-flex-pack: start
+  justify-content: flex-start
+  padding: 20px
+  position: relative
+
+.modal-card-head
+  border-bottom: 1px solid #d3d6db
+
+.modal-card-title
+  color: #222324
+  -webkit-box-flex: 1
+  -ms-flex-positive: 1
+  flex-grow: 1
+  font-size: 24px
+  line-height: 1
+
+.modal-card-foot
+  border-top: 1px solid #d3d6db
+  .button:not(:last-child)
+    margin-right: 10px
+
+.modal-card-body
+  -webkit-box-flex: 1
+  -ms-flex-positive: 1
+  flex-grow: 1
+  overflow: auto
+  padding: 20px
+
+.modal
+  bottom: 0
+  left: 0
+  position: absolute
+  right: 0
+  top: 0
+  -webkit-box-align: center
+  -ms-flex-align: center
+  align-items: center
+  display: none
+  -webkit-box-pack: center
+  -ms-flex-pack: center
+  justify-content: center
+  overflow: hidden
+  position: fixed
+  z-index: 1986
+  &.is-active
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+
+@media screen and (min-width: 769px)
+  .nav-toggle
+    display: none
+
+.nav-item
+  overflow: hidden
+  -webkit-box-align: center
+  -ms-flex-align: center
+  align-items: center
+  display: -webkit-box
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-pack: center
+  -ms-flex-pack: center
+  justify-content: center
+  padding: 10px
+  a
+    -webkit-box-flex: 1
+    -ms-flex-positive: 1
+    flex-grow: 1
+  img
+    max-height: 24px
+  .button + .button
+    margin-left: 10px
+  .tag
+    &:first-child
+      margin-right: 5px
+    &:last-child
+      margin-left: 5px
+  a
+    color: #42464c
+
+@media screen and (max-width: 768px)
+  .nav-item
+    -webkit-box-pack: start
+    -ms-flex-pack: start
+    justify-content: flex-start
+
+a.nav-item
+  color: #42464c
+
+.nav-item a:hover, a.nav-item:hover, .nav-item a.is-active, a.nav-item.is-active
+  color: #222324
+
+.nav-item a.is-tab, a.nav-item.is-tab
+  border-bottom: 1px solid transparent
+  border-top: 1px solid transparent
+  padding-left: 12px
+  padding-right: 12px
+
+.nav-item a.is-tab:hover, a.nav-item.is-tab:hover
+  border-bottom: 1px solid #2077b2
+  border-top: 1px solid transparent
+
+.nav-item a.is-tab.is-active, a.nav-item.is-tab.is-active
+  border-bottom: 3px solid #2077b2
+  border-top: 3px solid transparent
+  color: #2077b2
+
+@media screen and (max-width: 768px)
+  .nav-menu
+    background-color: #fff
+    box-shadow: 0 4px 7px rgba(17, 17, 17, 0.1)
+    left: 0
+    display: none
+    right: 0
+    top: 100%
+    position: absolute
+    .nav-item
+      border-top: 1px solid rgba(211, 214, 219, 0.5)
+      padding: 10px
+    &.is-active
+      display: block
+
+@media screen and (min-width: 769px) and (max-width: 979px)
+  .nav-menu
+    padding-right: 20px
+
+.nav-left
+  -webkit-box-align: stretch
+  -ms-flex-align: stretch
+  align-items: stretch
+  display: -webkit-box
+  display: -ms-flexbox
+  display: flex
+  -ms-flex-preferred-size: 0
+  flex-basis: 0
+  -webkit-box-flex: 1
+  -ms-flex-positive: 1
+  flex-grow: 1
+  -webkit-box-pack: start
+  -ms-flex-pack: start
+  justify-content: flex-start
+  overflow: hidden
+  overflow-x: auto
+  white-space: nowrap
+
+.nav-center
+  -webkit-box-align: stretch
+  -ms-flex-align: stretch
+  align-items: stretch
+  display: -webkit-box
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-pack: center
+  -ms-flex-pack: center
+  justify-content: center
+  margin-left: auto
+  margin-right: auto
+
+@media screen and (min-width: 769px)
+  .nav-right
+    -webkit-box-align: stretch
+    -ms-flex-align: stretch
+    align-items: stretch
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+    -ms-flex-preferred-size: 0
+    flex-basis: 0
+    -webkit-box-flex: 1
+    -ms-flex-positive: 1
+    flex-grow: 1
+    -webkit-box-pack: end
+    -ms-flex-pack: end
+    justify-content: flex-end
+
+.nav
+  -webkit-box-align: stretch
+  -ms-flex-align: stretch
+  align-items: stretch
+  background-color: #fff
+  display: -webkit-box
+  display: -ms-flexbox
+  display: flex
+  min-height: 50px
+  position: relative
+  text-align: center
+  z-index: 2
+  > .container
+    -webkit-box-align: stretch
+    -ms-flex-align: stretch
+    align-items: stretch
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+    min-height: 50px
+    width: 100%
+    >
+      .nav-left > .nav-item:first-child:not(.is-tab)
+        padding-left: 0
+      .nav-right > .nav-item:last-child:not(.is-tab)
+        padding-right: 0
+
+.container > .nav >
+  .nav-left > .nav-item:first-child:not(.is-tab)
+    padding-left: 0
+  .nav-right > .nav-item:last-child:not(.is-tab)
+    padding-right: 0
+
+.nav.has-shadow
+  box-shadow: 0 2px 3px rgba(17, 17, 17, 0.1)
+
+@media screen and (max-width: 979px)
+  .nav > .container > .nav-left > .nav-item.is-brand:first-child, .container > .nav > .nav-left > .nav-item.is-brand:first-child
+    padding-left: 20px
+
+.pagination
+  -webkit-box-align: center
+  -ms-flex-align: center
+  align-items: center
+  display: -webkit-box
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-pack: center
+  -ms-flex-pack: center
+  justify-content: center
+  text-align: center
+  a
+    display: block
+    min-width: 32px
+    padding: 3px 8px
+  span
+    color: #aeb1b5
+    display: block
+    margin: 0 4px
+  li
+    margin: 0 2px
+  ul
+    -webkit-box-align: center
+    -ms-flex-align: center
+    align-items: center
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+    -webkit-box-flex: 1
+    -ms-flex-positive: 1
+    flex-grow: 1
+    -webkit-box-pack: center
+    -ms-flex-pack: center
+    justify-content: center
+
+@media screen and (max-width: 768px)
+  .pagination
+    -ms-flex-wrap: wrap
+    flex-wrap: wrap
+    > a
+      width: calc(50% - 5px)
+      &:not(:first-child)
+        margin-left: 10px
+    li
+      -webkit-box-flex: 1
+      -ms-flex-positive: 1
+      flex-grow: 1
+    ul
+      margin-top: 10px
+
+@media screen and (min-width: 769px)
+  .pagination > a:not(:first-child)
+    -webkit-box-ordinal-group: 2
+    -ms-flex-order: 1
+    order: 1
+
+.panel-icon
+  display: inline-block
+  font-size: 14px
+  height: 16px
+  line-height: 16px
+  text-align: center
+  vertical-align: top
+  width: 16px
+  color: #aeb1b5
+  float: left
+  margin: 0 4px 0 -2px
+  .fa
+    font-size: inherit
+    line-height: inherit
+
+.panel-heading
+  background-color: #f5f7fa
+  border-bottom: 1px solid #d3d6db
+  border-radius: 4px 4px 0 0
+  color: #222324
+  font-size: 18px
+  font-weight: 300
+  padding: 10px
+
+.panel-list a
+  color: #42464c
+  &:hover
+    color: #2077b2
+
+.panel-tabs
+  display: -webkit-box
+  display: -ms-flexbox
+  display: flex
+  font-size: 11px
+  padding: 5px 10px 0
+  -webkit-box-pack: center
+  -ms-flex-pack: center
+  justify-content: center
+  a
+    border-bottom: 1px solid #d3d6db
+    margin-bottom: -1px
+    padding: 5px
+    &.is-active
+      border-bottom-color: #222324
+      color: #222324
+  &:not(:last-child)
+    border-bottom: 1px solid #d3d6db
+
+.panel-block
+  color: #222324
+  display: block
+  line-height: 16px
+  padding: 10px
+  &:not(:last-child)
+    border-bottom: 1px solid #d3d6db
+
+a.panel-block:hover
+  background-color: #f5f7fa
+
+.panel
+  border: 1px solid #d3d6db
+  border-radius: 5px
+  &:not(:last-child)
+    margin-bottom: 20px
+
+.tabs
+  -webkit-box-align: stretch
+  -ms-flex-align: stretch
+  align-items: stretch
+  display: -webkit-box
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-pack: justify
+  -ms-flex-pack: justify
+  justify-content: space-between
+  line-height: 24px
+  overflow: hidden
+  overflow-x: auto
+  white-space: nowrap
+  a
+    -webkit-box-align: center
+    -ms-flex-align: center
+    align-items: center
+    border-bottom: 1px solid #d3d6db
+    color: #42464c
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+    -webkit-box-pack: center
+    -ms-flex-pack: center
+    justify-content: center
+    margin-bottom: -1px
+    padding: 6px 12px
+    vertical-align: top
+    &:hover
+      border-bottom-color: #222324
+      color: #222324
+  li
+    display: block
+    &.is-active a
+      border-bottom-color: #2077b2
+      color: #2077b2
+  ul
+    -webkit-box-align: center
+    -ms-flex-align: center
+    align-items: center
+    border-bottom: 1px solid #d3d6db
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+    -webkit-box-flex: 1
+    -ms-flex-positive: 1
+    flex-grow: 1
+    -webkit-box-pack: start
+    -ms-flex-pack: start
+    justify-content: flex-start
+    &.is-left
+      padding-right: 10px
+    &.is-center
+      -webkit-box-flex: 0
+      -ms-flex: none
+      flex: none
+      -webkit-box-pack: center
+      -ms-flex-pack: center
+      justify-content: center
+      padding-left: 10px
+      padding-right: 10px
+    &.is-right
+      -webkit-box-pack: end
+      -ms-flex-pack: end
+      justify-content: flex-end
+      padding-left: 10px
+  .icon
+    &:first-child
+      margin-right: 8px
+    &:last-child
+      margin-left: 8px
+  &.is-centered ul
+    -webkit-box-pack: center
+    -ms-flex-pack: center
+    justify-content: center
+  &.is-right ul
+    -webkit-box-pack: end
+    -ms-flex-pack: end
+    justify-content: flex-end
+  &.is-boxed
+    a
+      border: 1px solid transparent
+      border-radius: 3px 3px 0 0
+      padding-bottom: 5px
+      padding-top: 5px
+      &:hover
+        background-color: #f5f7fa
+        border-bottom-color: #d3d6db
+    li.is-active a
+      background-color: #fff
+      border-color: #d3d6db
+      border-bottom-color: transparent !important
+  &.is-fullwidth li
+    -webkit-box-flex: 1
+    -ms-flex-positive: 1
+    flex-grow: 1
+  &.is-toggle
+    a
+      border: 1px solid #d3d6db
+      margin-bottom: 0
+      padding-bottom: 5px
+      padding-top: 5px
+      position: relative
+      &:hover
+        background-color: #f5f7fa
+        border-color: #aeb1b5
+        z-index: 2
+    li
+      + li
+        margin-left: -1px
+      &:first-child a
+        border-radius: 3px 0 0 3px
+      &:last-child a
+        border-radius: 0 3px 3px 0
+      &.is-active a
+        background-color: #2077b2
+        border-color: #2077b2
+        color: #fff
+        z-index: 1
+    ul
+      border-bottom: none
+  &.is-small
+    font-size: 11px
+    a
+      padding: 2px 8px
+    &.is-boxed a, &.is-toggle a
+      padding-bottom: 1px
+      padding-top: 1px
+  &.is-medium
+    font-size: 18px
+    a
+      padding: 10px 16px
+    &.is-boxed a, &.is-toggle a
+      padding-bottom: 9px
+      padding-top: 9px
+  &.is-large
+    font-size: 28px
+    a
+      padding: 14px 20px
+    &.is-boxed a, &.is-toggle a
+      padding-bottom: 13px
+      padding-top: 13px
+
+.hero-video
+  bottom: 0
+  left: 0
+  position: absolute
+  right: 0
+  top: 0
+  overflow: hidden
+  video
+    left: 50%
+    min-height: 100%
+    min-width: 100%
+    position: absolute
+    top: 50%
+    -webkit-transform: translate3d(-50%, -50%, 0)
+    transform: translate3d(-50%, -50%, 0)
+  &.is-transparent
+    opacity: 0.3
+
+@media screen and (max-width: 768px)
+  .hero-video
+    display: none
+
+.hero-buttons
+  margin-top: 20px
+
+@media screen and (max-width: 768px)
+  .hero-buttons .button
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+    &:not(:last-child)
+      margin-bottom: 10px
+
+@media screen and (min-width: 769px)
+  .hero-buttons
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+    -webkit-box-pack: center
+    -ms-flex-pack: center
+    justify-content: center
+    .button:not(:last-child)
+      margin-right: 20px
+
+.hero-head, .hero-foot
+  -ms-flex-negative: 0
+  flex-shrink: 0
+
+.hero-body
+  -webkit-box-flex: 1
+  -ms-flex-positive: 1
+  flex-grow: 1
+  padding: 40px 20px
+
+@media screen and (min-width: 980px)
+  .hero-body
+    padding-left: 0
+    padding-right: 0
+
+.hero
+  -webkit-box-align: stretch
+  -ms-flex-align: stretch
+  align-items: stretch
+  background-color: #fff
+  display: -webkit-box
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-orient: vertical
+  -webkit-box-direction: normal
+  -ms-flex-direction: column
+  flex-direction: column
+  -webkit-box-pack: justify
+  -ms-flex-pack: justify
+  justify-content: space-between
+  .nav
+    background: none
+    box-shadow: 0 1px 0 rgba(211, 214, 219, 0.3)
+  .tabs ul
+    border-bottom: none
+  &.is-white
+    background-color: #fff
+    color: #111
+    .title
+      color: #111
+      a, strong
+        color: inherit
+    .subtitle
+      color: rgba(17, 17, 17, 0.7)
+      a, strong
+        color: #111
+    .nav
+      box-shadow: 0 1px 0 rgba(17, 17, 17, 0.2)
+    a.nav-item, .nav-item a:not(.button)
+      color: rgba(17, 17, 17, 0.5)
+    a.nav-item
+      &:hover, &.is-active
+        color: #111
+    .nav-item a:not(.button)
+      &:hover, &.is-active
+        color: #111
+    .tabs
+      a
+        color: #111
+        opacity: 0.5
+        &:hover
+          opacity: 1
+      li.is-active a
+        opacity: 1
+      &.is-boxed a, &.is-toggle a
+        color: #111
+      &.is-boxed a:hover, &.is-toggle a:hover
+        background-color: rgba(17, 17, 17, 0.1)
+      &.is-boxed li.is-active a, &.is-toggle li.is-active a
+        background-color: #111
+        border-color: #111
+        color: #fff
+        &:hover
+          background-color: #111
+          border-color: #111
+          color: #fff
+    &.is-bold
+      background-image: -webkit-linear-gradient(309deg, #e6e6e6 0%, #fff 71%, #fff 100%)
+      background-image: linear-gradient(141deg, #e6e6e6 0%, #fff 71%, #fff 100%)
+  &.is-black
+    background-color: #111
+    color: #fff
+    .title
+      color: #fff
+      a, strong
+        color: inherit
+    .subtitle
+      color: rgba(255, 255, 255, 0.7)
+      a, strong
+        color: #fff
+    .nav
+      box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2)
+    a.nav-item, .nav-item a:not(.button)
+      color: rgba(255, 255, 255, 0.5)
+    a.nav-item
+      &:hover, &.is-active
+        color: #fff
+    .nav-item a:not(.button)
+      &:hover, &.is-active
+        color: #fff
+    .tabs
+      a
+        color: #fff
+        opacity: 0.5
+        &:hover
+          opacity: 1
+      li.is-active a
+        opacity: 1
+      &.is-boxed a, &.is-toggle a
+        color: #fff
+      &.is-boxed a:hover, &.is-toggle a:hover
+        background-color: rgba(17, 17, 17, 0.1)
+      &.is-boxed li.is-active a, &.is-toggle li.is-active a
+        background-color: #fff
+        border-color: #fff
+        color: #111
+        &:hover
+          background-color: #fff
+          border-color: #fff
+          color: #111
+    &.is-bold
+      background-image: -webkit-linear-gradient(309deg, #000 0%, #111 71%, #1f1c1c 100%)
+      background-image: linear-gradient(141deg, #000 0%, #111 71%, #1f1c1c 100%)
+  &.is-light
+    background-color: #f5f7fa
+    color: #42464c
+    .title
+      color: #42464c
+      a, strong
+        color: inherit
+    .subtitle
+      color: rgba(66, 70, 76, 0.7)
+      a, strong
+        color: #42464c
+    .nav
+      box-shadow: 0 1px 0 rgba(66, 70, 76, 0.2)
+    a.nav-item, .nav-item a:not(.button)
+      color: rgba(66, 70, 76, 0.5)
+    a.nav-item
+      &:hover, &.is-active
+        color: #42464c
+    .nav-item a:not(.button)
+      &:hover, &.is-active
+        color: #42464c
+    .tabs
+      a
+        color: #42464c
+        opacity: 0.5
+        &:hover
+          opacity: 1
+      li.is-active a
+        opacity: 1
+      &.is-boxed a, &.is-toggle a
+        color: #42464c
+      &.is-boxed a:hover, &.is-toggle a:hover
+        background-color: rgba(17, 17, 17, 0.1)
+      &.is-boxed li.is-active a, &.is-toggle li.is-active a
+        background-color: #42464c
+        border-color: #42464c
+        color: #f5f7fa
+        &:hover
+          background-color: #42464c
+          border-color: #42464c
+          color: #f5f7fa
+    &.is-bold
+      background-image: -webkit-linear-gradient(309deg, #d0e0ec 0%, #f5f7fa 71%, #fff 100%)
+      background-image: linear-gradient(141deg, #d0e0ec 0%, #f5f7fa 71%, #fff 100%)
+  &.is-dark
+    background-color: #42464c
+    color: #f5f7fa
+    .title
+      color: #f5f7fa
+      a, strong
+        color: inherit
+    .subtitle
+      color: rgba(245, 247, 250, 0.7)
+      a, strong
+        color: #f5f7fa
+    .nav
+      box-shadow: 0 1px 0 rgba(245, 247, 250, 0.2)
+    a.nav-item, .nav-item a:not(.button)
+      color: rgba(245, 247, 250, 0.5)
+    a.nav-item
+      &:hover, &.is-active
+        color: #f5f7fa
+    .nav-item a:not(.button)
+      &:hover, &.is-active
+        color: #f5f7fa
+    .tabs
+      a
+        color: #f5f7fa
+        opacity: 0.5
+        &:hover
+          opacity: 1
+      li.is-active a
+        opacity: 1
+      &.is-boxed a, &.is-toggle a
+        color: #f5f7fa
+      &.is-boxed a:hover, &.is-toggle a:hover
+        background-color: rgba(17, 17, 17, 0.1)
+      &.is-boxed li.is-active a, &.is-toggle li.is-active a
+        background-color: #f5f7fa
+        border-color: #f5f7fa
+        color: #42464c
+        &:hover
+          background-color: #f5f7fa
+          border-color: #f5f7fa
+          color: #42464c
+    &.is-bold
+      background-image: -webkit-linear-gradient(309deg, #262f35 0%, #42464c 71%, #4a4e5e 100%)
+      background-image: linear-gradient(141deg, #262f35 0%, #42464c 71%, #4a4e5e 100%)
+  &.is-primary
+    background-color: #2077b2
+    color: #fff
+    .title
+      color: #fff
+      a, strong
+        color: inherit
+    .subtitle
+      color: rgba(255, 255, 255, 0.7)
+      a, strong
+        color: #fff
+    .nav
+      box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2)
+    a.nav-item, .nav-item a:not(.button)
+      color: rgba(255, 255, 255, 0.5)
+    a.nav-item
+      &:hover, &.is-active
+        color: #fff
+    .nav-item a:not(.button)
+      &:hover, &.is-active
+        color: #fff
+    .tabs
+      a
+        color: #fff
+        opacity: 0.5
+        &:hover
+          opacity: 1
+      li.is-active a
+        opacity: 1
+      &.is-boxed a, &.is-toggle a
+        color: #fff
+      &.is-boxed a:hover, &.is-toggle a:hover
+        background-color: rgba(17, 17, 17, 0.1)
+      &.is-boxed li.is-active a, &.is-toggle li.is-active a
+        background-color: #fff
+        border-color: #fff
+        color: #2077b2
+        &:hover
+          background-color: #fff
+          border-color: #fff
+          color: #2077b2
+    &.is-bold
+      background-image: -webkit-linear-gradient(309deg, #10718f 0%, #2077b2 71%, #1e69ce 100%)
+      background-image: linear-gradient(141deg, #10718f 0%, #2077b2 71%, #1e69ce 100%)
+  &.is-info
+    background-color: #2077b2
+    color: #fff
+    .title
+      color: #fff
+      a, strong
+        color: inherit
+    .subtitle
+      color: rgba(255, 255, 255, 0.7)
+      a, strong
+        color: #fff
+    .nav
+      box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2)
+    a.nav-item, .nav-item a:not(.button)
+      color: rgba(255, 255, 255, 0.5)
+    a.nav-item
+      &:hover, &.is-active
+        color: #fff
+    .nav-item a:not(.button)
+      &:hover, &.is-active
+        color: #fff
+    .tabs
+      a
+        color: #fff
+        opacity: 0.5
+        &:hover
+          opacity: 1
+      li.is-active a
+        opacity: 1
+      &.is-boxed a, &.is-toggle a
+        color: #fff
+      &.is-boxed a:hover, &.is-toggle a:hover
+        background-color: rgba(17, 17, 17, 0.1)
+      &.is-boxed li.is-active a, &.is-toggle li.is-active a
+        background-color: #fff
+        border-color: #fff
+        color: #2077b2
+        &:hover
+          background-color: #fff
+          border-color: #fff
+          color: #2077b2
+    &.is-bold
+      background-image: -webkit-linear-gradient(309deg, #10718f 0%, #2077b2 71%, #1e69ce 100%)
+      background-image: linear-gradient(141deg, #10718f 0%, #2077b2 71%, #1e69ce 100%)
+  &.is-success
+    background-color: #97cd76
+    color: #fff
+    .title
+      color: #fff
+      a, strong
+        color: inherit
+    .subtitle
+      color: rgba(255, 255, 255, 0.7)
+      a, strong
+        color: #fff
+    .nav
+      box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2)
+    a.nav-item, .nav-item a:not(.button)
+      color: rgba(255, 255, 255, 0.5)
+    a.nav-item
+      &:hover, &.is-active
+        color: #fff
+    .nav-item a:not(.button)
+      &:hover, &.is-active
+        color: #fff
+    .tabs
+      a
+        color: #fff
+        opacity: 0.5
+        &:hover
+          opacity: 1
+      li.is-active a
+        opacity: 1
+      &.is-boxed a, &.is-toggle a
+        color: #fff
+      &.is-boxed a:hover, &.is-toggle a:hover
+        background-color: rgba(17, 17, 17, 0.1)
+      &.is-boxed li.is-active a, &.is-toggle li.is-active a
+        background-color: #fff
+        border-color: #fff
+        color: #97cd76
+        &:hover
+          background-color: #fff
+          border-color: #fff
+          color: #97cd76
+    &.is-bold
+      background-image: -webkit-linear-gradient(309deg, #8ecb45 0%, #97cd76 71%, #96d885 100%)
+      background-image: linear-gradient(141deg, #8ecb45 0%, #97cd76 71%, #96d885 100%)
+  &.is-warning
+    background-color: #fce473
+    color: rgba(17, 17, 17, 0.5)
+    .title
+      color: rgba(17, 17, 17, 0.5)
+      a, strong
+        color: inherit
+    .subtitle
+      color: rgba(17, 17, 17, 0.7)
+      a, strong
+        color: rgba(17, 17, 17, 0.5)
+    .nav
+      box-shadow: 0 1px 0 rgba(17, 17, 17, 0.2)
+    a.nav-item, .nav-item a:not(.button)
+      color: rgba(17, 17, 17, 0.5)
+    a.nav-item
+      &:hover, &.is-active
+        color: rgba(17, 17, 17, 0.5)
+    .nav-item a:not(.button)
+      &:hover, &.is-active
+        color: rgba(17, 17, 17, 0.5)
+    .tabs
+      a
+        color: rgba(17, 17, 17, 0.5)
+        opacity: 0.5
+        &:hover
+          opacity: 1
+      li.is-active a
+        opacity: 1
+      &.is-boxed a, &.is-toggle a
+        color: rgba(17, 17, 17, 0.5)
+      &.is-boxed a:hover, &.is-toggle a:hover
+        background-color: rgba(17, 17, 17, 0.1)
+      &.is-boxed li.is-active a, &.is-toggle li.is-active a
+        background-color: rgba(17, 17, 17, 0.5)
+        border-color: rgba(17, 17, 17, 0.5)
+        color: #fce473
+        &:hover
+          background-color: rgba(17, 17, 17, 0.5)
+          border-color: rgba(17, 17, 17, 0.5)
+          color: #fce473
+    &.is-bold
+      background-image: -webkit-linear-gradient(309deg, #ffbd3d 0%, #fce473 71%, #fffe8a 100%)
+      background-image: linear-gradient(141deg, #ffbd3d 0%, #fce473 71%, #fffe8a 100%)
+  &.is-danger
+    background-color: #ed6c63
+    color: #fff
+    .title
+      color: #fff
+      a, strong
+        color: inherit
+    .subtitle
+      color: rgba(255, 255, 255, 0.7)
+      a, strong
+        color: #fff
+    .nav
+      box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2)
+    a.nav-item, .nav-item a:not(.button)
+      color: rgba(255, 255, 255, 0.5)
+    a.nav-item
+      &:hover, &.is-active
+        color: #fff
+    .nav-item a:not(.button)
+      &:hover, &.is-active
+        color: #fff
+    .tabs
+      a
+        color: #fff
+        opacity: 0.5
+        &:hover
+          opacity: 1
+      li.is-active a
+        opacity: 1
+      &.is-boxed a, &.is-toggle a
+        color: #fff
+      &.is-boxed a:hover, &.is-toggle a:hover
+        background-color: rgba(17, 17, 17, 0.1)
+      &.is-boxed li.is-active a, &.is-toggle li.is-active a
+        background-color: #fff
+        border-color: #fff
+        color: #ed6c63
+        &:hover
+          background-color: #fff
+          border-color: #fff
+          color: #ed6c63
+    &.is-bold
+      background-image: -webkit-linear-gradient(309deg, #f32a3e 0%, #ed6c63 71%, #f39376 100%)
+      background-image: linear-gradient(141deg, #f32a3e 0%, #ed6c63 71%, #f39376 100%)
+  &.is-fullheight
+    min-height: 100vh
+    .hero-body
+      -webkit-box-align: center
+      -ms-flex-align: center
+      align-items: center
+      display: -webkit-box
+      display: -ms-flexbox
+      display: flex
+      > .container
+        -webkit-box-flex: 1
+        -ms-flex-positive: 1
+        flex-grow: 1
+
+@media screen and (max-width: 768px)
+  .hero.is-white .nav-menu
+    background-color: #fff
+
+@media screen and (max-width: 768px)
+  .hero.is-white
+    .nav-toggle
+      span
+        background-color: #111
+      &:hover
+        background-color: rgba(17, 17, 17, 0.1)
+      &.is-active span
+        background-color: #111
+    .nav-menu .nav-item
+      border-top-color: rgba(17, 17, 17, 0.2)
+
+@media screen and (max-width: 768px)
+  .hero.is-black .nav-menu
+    background-color: #111
+
+@media screen and (max-width: 768px)
+  .hero.is-black
+    .nav-toggle
+      span
+        background-color: #fff
+      &:hover
+        background-color: rgba(17, 17, 17, 0.1)
+      &.is-active span
+        background-color: #fff
+    .nav-menu .nav-item
+      border-top-color: rgba(255, 255, 255, 0.2)
+
+@media screen and (max-width: 768px)
+  .hero.is-light .nav-menu
+    background-color: #f5f7fa
+
+@media screen and (max-width: 768px)
+  .hero.is-light
+    .nav-toggle
+      span
+        background-color: #42464c
+      &:hover
+        background-color: rgba(17, 17, 17, 0.1)
+      &.is-active span
+        background-color: #42464c
+    .nav-menu .nav-item
+      border-top-color: rgba(66, 70, 76, 0.2)
+
+@media screen and (max-width: 768px)
+  .hero.is-dark .nav-menu
+    background-color: #42464c
+
+@media screen and (max-width: 768px)
+  .hero.is-dark
+    .nav-toggle
+      span
+        background-color: #f5f7fa
+      &:hover
+        background-color: rgba(17, 17, 17, 0.1)
+      &.is-active span
+        background-color: #f5f7fa
+    .nav-menu .nav-item
+      border-top-color: rgba(245, 247, 250, 0.2)
+
+@media screen and (max-width: 768px)
+  .hero.is-primary .nav-menu
+    background-color: #2077b2
+
+@media screen and (max-width: 768px)
+  .hero.is-primary
+    .nav-toggle
+      span
+        background-color: #fff
+      &:hover
+        background-color: rgba(17, 17, 17, 0.1)
+      &.is-active span
+        background-color: #fff
+    .nav-menu .nav-item
+      border-top-color: rgba(255, 255, 255, 0.2)
+
+@media screen and (max-width: 768px)
+  .hero.is-info .nav-menu
+    background-color: #2077b2
+
+@media screen and (max-width: 768px)
+  .hero.is-info
+    .nav-toggle
+      span
+        background-color: #fff
+      &:hover
+        background-color: rgba(17, 17, 17, 0.1)
+      &.is-active span
+        background-color: #fff
+    .nav-menu .nav-item
+      border-top-color: rgba(255, 255, 255, 0.2)
+
+@media screen and (max-width: 768px)
+  .hero.is-success .nav-menu
+    background-color: #97cd76
+
+@media screen and (max-width: 768px)
+  .hero.is-success
+    .nav-toggle
+      span
+        background-color: #fff
+      &:hover
+        background-color: rgba(17, 17, 17, 0.1)
+      &.is-active span
+        background-color: #fff
+    .nav-menu .nav-item
+      border-top-color: rgba(255, 255, 255, 0.2)
+
+@media screen and (max-width: 768px)
+  .hero.is-warning .nav-menu
+    background-color: #fce473
+
+@media screen and (max-width: 768px)
+  .hero.is-warning
+    .nav-toggle
+      span
+        background-color: rgba(17, 17, 17, 0.5)
+      &:hover
+        background-color: rgba(17, 17, 17, 0.1)
+      &.is-active span
+        background-color: rgba(17, 17, 17, 0.5)
+    .nav-menu .nav-item
+      border-top-color: rgba(17, 17, 17, 0.2)
+
+@media screen and (max-width: 768px)
+  .hero.is-danger .nav-menu
+    background-color: #ed6c63
+
+@media screen and (max-width: 768px)
+  .hero.is-danger
+    .nav-toggle
+      span
+        background-color: #fff
+      &:hover
+        background-color: rgba(17, 17, 17, 0.1)
+      &.is-active span
+        background-color: #fff
+    .nav-menu .nav-item
+      border-top-color: rgba(255, 255, 255, 0.2)
+
+@media screen and (min-width: 769px)
+  .hero.is-medium .hero-body
+    padding-bottom: 120px
+    padding-top: 120px
+
+@media screen and (min-width: 769px)
+  .hero.is-large .hero-body
+    padding-bottom: 240px
+    padding-top: 240px
+
+.section
+  background-color: #fff
+  padding: 40px 20px
+
+@media screen and (min-width: 980px)
+  .section
+    &.is-medium
+      padding: 120px 20px
+    &.is-large
+      padding: 240px 20px
+
+.footer
+  background-color: #f5f7fa
+  padding: 40px 20px 80px
+  a
+    color: #42464c
+    &:visited
+      color: #42464c
+    &:hover, &:visited:hover
+      color: #222324
+    &:not(.icon), &:visited:not(.icon)
+      border-bottom: 1px solid #d3d6db
+    &:not(.icon):hover, &:visited:not(.icon):hover
+      border-bottom-color: #2077b2
+
+.container
+  max-width: 800px
+  margin: 0 auto
+
+.content
+  font-size: 16px
+  line-height: 1.75
+  padding: 20px 10px !important
+
+.media-content
+  .subtitle + .title
+    margin-bottom: 10px
+  .content
+    line-height: 1.5
+
+.hero .nav
+  box-shadow: none
+
+html
+  background-color: transparent
+
+.section
+  padding: 40px 20px
+
+.nav .level-item
+  margin-left: 10px
+
+nav .level
+  padding-top: 14px
+  padding-bot: 6px
+
+.subtitle
+  color: #69707a
+
+.title
+  line-height: 1.25
+  font-size: 24px
+  a
+    color: #222324
+  &.notfound
+    font-size: 20vw
+
+code
+  color: inherit
+  background-color: transparent
+  font-size: 90%
+
+article + article
+  margin-top: 80px
+
+.content
+  h1, h2, h3, h4, h5, h6
+    line-height: 1.25
+  h1:not(:first-child), h2:not(:first-child), h3:not(:first-child), h4:not(:first-child), h5:not(:first-child), h6:not(:first-child)
+    margin-top: 80px
+  h1::before, h2::before, h3::before, h4::before, h5::before, h6::before
+    color: #aeb1b5
+    font-weight: bold
+  h1 code, h2 code, h3 code, h4 code, h5 code, h6 code
+    background-color: #f8f8f8
+  h1 + h2:not(:first-child), h2 + h3:not(:first-child), h3 + h4:not(:first-child), h4 + h5:not(:first-child), h5 + h6:not(:first-child)
+    margin-top: 20px
+  h1
+    font-size: 3.2vmin
+    &::before
+      content: ""
+  h2
+    font-size: 22px
+    &::before
+      content: ""
+  h3
+    font-size: 20px
+    &::before
+      content: ""
+  h4
+    font-size: 18px
+    &::before
+      content: ""
+  h5
+    font-size: 17px
+    &::before
+      content: ""
+  h6
+    font-size: 16px
+    &::before
+      content: ""
+  p:not(:last-child), ol:not(:last-child), ul:not(:last-child), pre:not(:last-child)
+    margin-bottom: 1.5em
+  table
+    &:not(:last-child)
+      margin-bottom: 1.5em
+    td, th
+      border: 1px solid #d3d6db
+      padding: 8px 10px
+      vertical-align: top
+  > code, p > code
+    font-size: 90%
+    padding: 2px 4px
+    margin: 0 2px
+    border: 1px solid #ddd
+    border-radius: 4px
+    background-color: #f8f8f8
+    color: #42464c
+  pre code
+    font-size: 90%
+    padding: 1em
+    line-height: 1.5
+  li
+    pre, table
+      margin-bottom: 1.5em
+
+/*          MY STYLE MOBILE FIRST
+
+/* Colours
+ *#ff6858   //redish neon
+ *#28cd91   //green neon
+ *#455268   //lightgreyish
+ *#1c263c   //material design darkish
+
+.nav-item h1
+  -webkit-font-smoothing: antialiased
+  background: #ff6858
+  padding: 6px !important
+  box-shadow: 6px 7px 0px 0px #28cd91
+  color: #fff
+  border-radius: 1px
+  font-size: 4.2vmin
+  padding: 2px 4px 2px 3px
+
+.fa
+  color: #ff6858
+  opacity: 0.9
+
+.icon
+  border-radius: 3px
+
+html, *
+  vertical-align: baseline
+  background: transparent
+  -webkit-transition: all 500ms ease-in-out 0s
+  -moz-transition: all 500ms ease-in-out 0s
+  transition: all 500ms ease-in-out 0s
+
+// @media only screen and (max-width: 600px)
+//   .nav-right
+//     position: fixed
+//     bottom: 0px
+//     left: 0px
+//     width: 100vw
+//     // background: rgba(22, 17, 14, 0.76)
+//     opacity: 0.9
+//   .content .h1
+//     font-size: 1.2em !important
+//   .icon .fa
+//     color: #fff
+//   .nav-item h1
+//     display: block
+//     font-size: 8vmin !important
+//   .content pre code
+//     font-size: 15px
