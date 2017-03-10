@@ -4346,12 +4346,6 @@ article + article {
 .content li pre, .content li table {
   margin-bottom: 1.5em; }
 
-/*          MY STYLE MOBILE FIRST */
-/* Colours
- *#ff6858   //redish neon
- *#28cd91   //green neon
- *#455268   //lightgreyish
- *#1c263c   //material design darkish */
 .nav-item h1 {
   -webkit-font-smoothing: antialiased;
   background: #ff6858;
@@ -4385,17 +4379,18 @@ html, * {
     background: rgba(22, 17, 14, 0.76);
     opacity: 0.9; }
 
-  .content .h1 {
+  .content h1 {
     font-size: 1.2em; }
 
   .icon .fa {
     color: #fff; }
 
   .nav-item h1 {
-    display: block;
-    font-size: 8vmin !important; }
+    text-align: center;
+    font-size: 11vmin !important; }
 
   .content pre code {
-    font-size: 15px; } }
+    font-family: "Inconsolata", "Open Sans", monospace;
+    font-size: 1em; } }
 
 /*# sourceMappingURL=style.css.map */

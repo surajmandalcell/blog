@@ -4550,13 +4550,13 @@ article + article
     pre, table
       margin-bottom: 1.5em
 
-/*          MY STYLE MOBILE FIRST
+//         MY STYLE MOBILE FIRST
 
-/* Colours
- *#ff6858   //redish neon
- *#28cd91   //green neon
- *#455268   //lightgreyish
- *#1c263c   //material design darkish
+//  Colours
+//  *#ff6858   //redish neon
+//  *#28cd91   //green neon
+//  *#455268   //lightgreyish
+//  *#1c263c   //material design darkish
 
 .nav-item h1
   -webkit-font-smoothing: antialiased
@@ -4582,20 +4582,21 @@ html, *
   -moz-transition: all 500ms ease-in-out 0s
   transition: all 500ms ease-in-out 0s
 
-// @media only screen and (max-width: 600px)
-//   .nav-right
-//     position: fixed
-//     bottom: 0px
-//     left: 0px
-//     width: 100vw
-//     // background: rgba(22, 17, 14, 0.76)
-//     opacity: 0.9
-//   .content .h1
-//     font-size: 1.2em !important
-//   .icon .fa
-//     color: #fff
-//   .nav-item h1
-//     display: block
-//     font-size: 8vmin !important
-//   .content pre code
-//     font-size: 15px
+@media only screen and (max-width: 600px)
+  .nav-right
+    position: fixed
+    bottom: 0px
+    left: 0px
+    width: 100vw
+    background: rgba(22, 17, 14, 0.76)
+    opacity: 0.9
+  .content h1
+    font-size: 1.2em
+  .icon .fa
+    color: #fff
+  .nav-item h1
+    text-align: center
+    font-size: 11vmin !important
+  .content pre code
+    font-family: "Inconsolata", "Open Sans", monospace
+    font-size: 1em

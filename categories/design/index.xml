@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Design on Woah Its A Blog</title>
-    <link>/categories/design/index.xml</link>
-    <description>Recent content in Design on Woah Its A Blog</description>
+    <title>Design on Woah Its A Blog!</title>
+    <link>https://surajmandalcell.github.io/categories/design/index.xml</link>
+    <description>Recent content in Design on Woah Its A Blog!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/surajmandalcell&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/surajmandalcell/hucore.git&#34; target=&#34;_blank&#34;&gt;Meko theme&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
-    <atom:link href="/categories/design/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://surajmandalcell.github.io/categories/design/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Fonts i usually use</title>
-      <link>/post/fonts-i-use/</link>
+      <link>https://surajmandalcell.github.io/post/fonts-i-use/</link>
       <pubDate>Fri, 10 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>/post/fonts-i-use/</guid>
+      <guid>https://surajmandalcell.github.io/post/fonts-i-use/</guid>
       <description>
 
 &lt;h2 id=&#34;sans-serif&#34;&gt;Sans Serif&lt;/h2&gt;
@@ -65,10 +65,10 @@
     
     <item>
       <title>Simple Duh app</title>
-      <link>/post/the-dun-program/</link>
+      <link>https://surajmandalcell.github.io/post/the-dun-program/</link>
       <pubDate>Fri, 10 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>/post/the-dun-program/</guid>
+      <guid>https://surajmandalcell.github.io/post/the-dun-program/</guid>
       <description>
 
 &lt;h1 id=&#34;this-is-a-simple-duh-program-written-in-c-to-duh-you-p&#34;&gt;This is a simple Duh program written in c++ to duh you :p&lt;/h1&gt;
