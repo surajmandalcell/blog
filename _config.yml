@@ -1,5 +1,3 @@
-# Mandatory settings
-
 blog_theme: light # Or use dark
 name: Blog
 paginate: 25
@@ -8,7 +6,7 @@ url: https://github.com/surajmandalcell/
 
 # Optional settings
 
-about_enabled: false # Change to true if you wish to show an icon in the navigation that redirects to the about page
+about_enabled: false
 baseurl: /blog
 discus_identifier: Cruelplatypus67
 ga_analytics: UA-51305165-1

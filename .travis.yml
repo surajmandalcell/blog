@@ -1,5 +1,5 @@
-language: node_js
-node_js:
-  - "nodejs"
+install:
+  - npm install
+
 script:
   - bundle exec bin/build.sh
