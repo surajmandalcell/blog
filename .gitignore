@@ -1,10 +1,14 @@
-_site
-.DS_Store
-.jekyll
-.jekyll-metadata
-.bundle
-.sass-cache
-Gemfile
+# Global
+*.DS_Store
+Desktop.ini
+Thumbs.db
+
+# Project
+!.keep
+*.sass-cache
+/_assets/yarn/
+/_site/
+/.jekyll-cache/
 Gemfile.lock
-node_modules
-package.json
+yarn.lock
+.idea
