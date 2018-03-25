@@ -1,5 +1,5 @@
 language: node_js
 node_js:
-  - "Node"
+  - "nodejs"
 script:
   - bundle exec bin/build.sh
