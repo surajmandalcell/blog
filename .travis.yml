@@ -1,5 +1,0 @@
-install:
-  - npm install
-
-script:
-  - bundle exec bin/build.sh
