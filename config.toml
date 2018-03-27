@@ -1,5 +1,0 @@
-baseurl = "http://surajmandalcell.github.io/blog"
-pygmentsuseclasses = true
-languageCode = "en-us"
-publishDir = "docs"
-title = "My blog"
