@@ -1,5 +1,87 @@
 baseurl = "http://surajmandalcell.github.io/blog"
 pygmentsuseclasses = true
 languageCode = "en-us"
-publishDir = "docs"
-title = "My blog"
+publishDir = "_site"
+Title = "My blog"
+theme = "Pickles"
+copyright = "&copy; Copyright Suraj Mandal 2018"
+
+[params]
+  paginate = 10
+  twitter = "Cruelplatypus67"
+  facebook = "surajmandalcell"
+  github = "surajmandalcell"
+  gitlab = "surajmandalcell"
+  # npm = "Your npm username"
+  codepen = "cruelplatypus67"
+  tumblr = "cruelplatypus67"
+  linkedin = "surajmandalcell"
+  disqus = "Cruelplatypus67"
+  # ga_api_key = "Your Google Analytics tracking id"
+  author = "Suraj Mandal"
+  authorwebsite = "surajmandalcell.github.io"
+  # avatar = "/path/to/avatar"
+  contact = "mailto:cruelplatypus67@gmail.com"
+  bio = "I potato, You potato, We potato"
+  # Short subtitle/tagline. This is displayed in the header.
+  subtitle = "Short subtitle"
+  # Logo image. This is displayed ogp image.
+  # logo = "/path/to/logo"
+  # favicon = "/path/to/favicon"
+
+[[menu.main]]
+    name = "Blog"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 2
+
+[[menu.main]]
+    identifier = "theme"
+    name = "/theme"
+    weight = 3
+
+[[menu.main]]
+    parent = "theme"
+    name = "creating-a-new-theme"
+    url = "/posts/creating-a-new-theme"
+    weight = 1
+
+[[menu.main]]
+    parent = "theme"
+    name = "migrate-from-jekyll"
+    url = "/posts/migrate-from-jekyll"
+    weight = 2
+
+[[menu.main]]
+    name = "Tags"
+    url = "/tags"
+    weight = 4
+
+[related]
+  # Only include matches with rank >= threshold. This is a normalized rank between 0 and 100.
+  threshold = 80
+
+  # To get stable "See also" sections we, by default, exclude newer related pages.
+  includeNewer = false
+
+  # Will lower case keywords in both queries and in the indexes.
+  toLower = false
+
+  [[related.indices]]
+  name = "keywords"
+  weight = 150
+  [[related.indices]]
+  name  = "author"
+  toLower = true
+  weight = 30
+  [[related.indices]]
+  name  = "tags"
+  weight = 100
+  [[related.indices]]
+  name  = "date"
+  weight = 10
+  pattern = "2017"

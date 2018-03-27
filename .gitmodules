@@ -5,3 +5,6 @@
 [submodule "themes/potato-dark"]
 	path = themes/potato-dark
 	url = https://github.com/surajmandalcell/potato-dark.git
+[submodule "themes/hugo_theme_pickles"]
+	path = themes/hugo_theme_pickles
+	url = https://github.com/mismith0227/hugo_theme_pickles.git
