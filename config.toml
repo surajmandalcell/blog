@@ -1,0 +1,4 @@
+baseurl = "http://surajmandalcell.github.io/blog"
+pygmentsuseclasses = true
+title = "My blog"
+languageCode = "en-us"
