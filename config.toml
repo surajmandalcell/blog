@@ -3,7 +3,7 @@ pygmentsuseclasses = true
 languageCode = "en-us"
 publishDir = "_site"
 Title = "My blog"
-theme = "Pickles"
+theme = "potato-dark"
 copyright = "&copy; Copyright Suraj Mandal 2018"
 
 [params]
