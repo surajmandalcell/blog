@@ -18,13 +18,7 @@ copyright = "&copy; Copyright Suraj Mandal 2018"
   linkedin = "surajmandalcell"
   disqus = "Cruelplatypus67"
   # ga_api_key = "Your Google Analytics tracking id"
-  author = "Suraj Mandal"
-  authorwebsite = "surajmandalcell.github.io"
-  # avatar = "/path/to/avatar"
-  contact = "mailto:cruelplatypus67@gmail.com"
-  bio = "I potato, You potato, We potato"
-  # Short subtitle/tagline. This is displayed in the header.
-  subtitle = "Short subtitle"
+  subtitle = "Programmer by profession Designer by passion"
   # Logo image. This is displayed ogp image.
   # logo = "/path/to/logo"
   # favicon = "/path/to/favicon"
@@ -35,31 +29,14 @@ copyright = "&copy; Copyright Suraj Mandal 2018"
     weight = 1
 
 [[menu.main]]
+    identifier = "theme"
+    name = "Theme"
+    weight = 2
+
+[[menu.main]]
     name = "About"
     url = "/about"
-    weight = 2
-
-[[menu.main]]
-    identifier = "theme"
-    name = "/theme"
     weight = 3
-
-[[menu.main]]
-    parent = "theme"
-    name = "creating-a-new-theme"
-    url = "/posts/creating-a-new-theme"
-    weight = 1
-
-[[menu.main]]
-    parent = "theme"
-    name = "migrate-from-jekyll"
-    url = "/posts/migrate-from-jekyll"
-    weight = 2
-
-[[menu.main]]
-    name = "Tags"
-    url = "/tags"
-    weight = 4
 
 [related]
   # Only include matches with rank >= threshold. This is a normalized rank between 0 and 100.

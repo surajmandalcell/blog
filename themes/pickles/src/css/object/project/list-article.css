@@ -1,9 +1,0 @@
-.p-list-article {
-  margin-top: 40px;
-  &:first-child {
-    margin-top: 0;
-  }
-  &__btn {
-    margin-top: 16px;
-  }
-}
