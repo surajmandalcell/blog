@@ -1,0 +1,15 @@
+@custom-media --lg(min-width:1024px);
+@custom-media --lmd(min-width:768px);
+@custom-media --md(max-width:767px);
+@custom-media --sm(min-width:640px);
+:root {
+  --SanFrancisco: -apple-system, BlinkMacSystemFont, YakuHanJP, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  --OpenSans: 'Open Sans', sans-serif
+}
+
+:root {
+  --bg-color: #fff;
+  --color-text: #555;
+  --link-color: #337ab7;
+  --link-hover: #175081
+}
