@@ -1,8 +1,10 @@
-baseurl = "http://surajmandalcell.github.io/blog"
+# Add a "/" after baseurl so the css and js folders work corectly
+baseurl = "https://surajmandalcell.github.io/blog"
 pygmentsuseclasses = true
 languageCode = "en-us"
 publishDir = "_site"
-Title = "My blog"
+Title = "[ Suraj Mandal ]"
+relativeURLs = true
 theme = "potato-dark"
 copyright = "&copy; Copyright Suraj Mandal 2018"
 
@@ -18,24 +20,25 @@ copyright = "&copy; Copyright Suraj Mandal 2018"
   linkedin = "surajmandalcell"
   disqus = "Cruelplatypus67"
   # ga_api_key = "Your Google Analytics tracking id"
-  subtitle = "Programmer by profession Designer by passion"
+  subtitle = "Programmer by profession designer by passion"
   # Logo image. This is displayed ogp image.
   # logo = "/path/to/logo"
   # favicon = "/path/to/favicon"
 
 [[menu.main]]
     name = "Blog"
-    url = "/"
+    url = "https://surajmandalcell.github.io/blog"
     weight = 1
 
 [[menu.main]]
     identifier = "theme"
     name = "Theme"
+    url = "https://surajmandalcell.github.io/blog"
     weight = 2
 
 [[menu.main]]
     name = "About"
-    url = "/about"
+    url = "https://surajmandalcell.github.io"
     weight = 3
 
 [related]
