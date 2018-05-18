@@ -2,7 +2,7 @@
 title = "My first post"
 description = "Just started my blog"
 tags = ["about", "first_post", "personal"]
-date = "2014-04-02"
+date = "2018-01-02"
 categories = [ "personal"]
 +++
 
