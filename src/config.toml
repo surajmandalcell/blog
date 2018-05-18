@@ -2,7 +2,7 @@
 baseurl = "https://surajmandalcell.github.io/blog"
 pygmentsuseclasses = true
 languageCode = "en-us"
-publishDir = "public"
+publishDir = "_site"
 Title = "[ Suraj Mandal ]"
 relativeURLs = true
 theme = "potato-dark"
