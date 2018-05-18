@@ -11,7 +11,7 @@ install:
 # Build the website
 script:
   - cd src
-  - binaries/hugo --theme=potato-dark
+  - ../binaries/hugo --theme=potato-dark
 
 # Deploy to GitHub pages
 deploy:
