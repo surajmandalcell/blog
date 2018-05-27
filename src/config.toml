@@ -33,7 +33,7 @@ copyright = "&copy; Copyright Suraj Mandal 2018"
 [[menu.main]]
     identifier = "theme"
     name = "Theme"
-    url = "https://surajmandalcell.github.io/blog"
+    url = "https://github.com/surajmandalcell/potato-dark"
     weight = 2
 
 [[menu.main]]
