@@ -12,7 +12,7 @@ topics = [
 date = "2018-05-18"
 +++
   
-![](images/automation-header.png)
+![automation](images/automation-header.png)
   
 Automation is fun right? you make only a script and leave the rest to machine, forever, updated dependencies? just update the instruction script and volla! Isn't it nice to have something that developers love.  
   
