@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Suraj Mandal</title>
+    <link>https://surajmandalcell.github.io/blog/</link>
+    <description>Recent content on Suraj Mandal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Copyright Suraj Mandal 2018</copyright>
+    <lastBuildDate>Fri, 24 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://surajmandalcell.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Samurai Champloo Review</title>
+      <link>https://surajmandalcell.github.io/blog/posts/samurai_champaloo/</link>
+      <pubDate>Fri, 24 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://surajmandalcell.github.io/blog/posts/samurai_champaloo/</guid>
+      <description>Samurai Champloo may have been awesome just like the classics over, but it finished up like Samurai More profound Kyo. Fair normal, nothing extraordinary. There was nothing extraordinary around the appear. The characters were curiously, but not compelling. By the conclusion, I didn&amp;rsquo;t truly care that much around any one of them. The blend of comedy was the one beautiful great portion of the appear. The music was fair awful, no make that appalling.</description>
+    </item>
+    
+    <item>
+      <title>Using automation for the first time</title>
+      <link>https://surajmandalcell.github.io/blog/posts/using-automation-for-the-first-time/</link>
+      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://surajmandalcell.github.io/blog/posts/using-automation-for-the-first-time/</guid>
+      <description>Automation is fun right? you make only a script and leave the rest to machine, forever, updated dependencies? just update the instruction script and volla! Isn&amp;rsquo;t it nice to have something that developers love.
+Still developers don&amp;rsquo;t use it most of the time the amount of time it takes to set up a working automation script so CI can work on it every pull is high when it comes to setting up something new.</description>
+    </item>
+    
+    <item>
+      <title>My first post</title>
+      <link>https://surajmandalcell.github.io/blog/posts/my_first_post/</link>
+      <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://surajmandalcell.github.io/blog/posts/my_first_post/</guid>
+      <description>Hi there, I am suraj mandal and this is my blog hosted on github (cause i cant afford anything else rn :p). This is my first post and i intend it to be short as i really dont have anything to say right now.
+Anyways this blog took me hell lot of time to make is is a big pain in my buttock as i decided to make a custom theme dedicated to this blog.</description>
+    </item>
+    
+  </channel>
+</rss>
